@@ -1,0 +1,560 @@
+
+body.main{
+    background-color: black;
+}
+footer >  h2,
+section[class$=Detail] > div[class$=purchase] > div small,
+section[class$=Detail] > div[class$=purchase] > div fieldset ul li:nth-of-type(2) label,
+section[class$=Detail] > div[class$=purchase] > div fieldset ul li:nth-of-type(3) label,
+section[class$=Detail] > div[class$=purchase] > div fieldset ul li:last-of-type label,
+section[class$=Detail] > div[class$=designpoint] > figure figcaption h3,
+section[class$=Detail] > div[class$=laundry] > h3 small,
+section[class$=Detail] > div[class$=size] > h3,
+section[class$=Detail] > div[class$=size] > table caption,
+section[class$=Detail] > div[class$=size] > table thead,
+section[class=etcpage_notice] fieldset ul li:nth-of-type(3) span:nth-of-type(3),
+section[class=etcpage_notice_detail] h2 small,
+section[class=etcpage_login] h2,
+section[class=etcpage_login] fieldset legend{
+    font-family: 'Geograph-Light';
+}
+header > nav ul li a,
+header > div div h2,
+header > div div ul li a,
+footer > div,
+section[class^=mainpage],
+section[class^=list],
+section[class$=Detail] > div[class$=purchase] > div fieldset ul li:nth-of-type(1),
+section[class$=Detail] > div[class$=purchase] > div fieldset ul li:nth-of-type(2),
+section[class$=Detail] > div[class$=purchase] > div fieldset ul li:nth-of-type(3) select,
+section[class$=Detail] > div[class$=purchase] > div fieldset ul li:nth-of-type(4) input[type='text']
+section[class$=Detail] > div[class$=purchase] > div fieldset ul li:nth-of-type(4) :last-child,
+section[class$=Detail] > div[class$=purchase] > div input[type='submit'],
+section[class$=Detail] > div[class$=purchase] > div a,
+section[class$=Detail] > figure[class$=explanation],
+section[class$=Detail] > div[class$=designpoint] > figure figcaption p,
+section[class$=Detail] > div[class$=laundry] > h3,
+section[class$=Detail] > div[class$=laundry] > ul li,
+section[class$=Detail] > div[class$=laundry] > p,
+section[class$=Detail] > div[class$=size] > table tbody,
+section[class$=Detail] > div[class$=delivery],
+section[class$=Detail] > div[class$=exchange],
+section[class$=Detail] > a,
+section[class^=etcpage]{
+    font-family: 'Noto Sans KR';
+}
+
+
+/* *all Using */
+
+@media screen and (max-width: 767px) {
+    header{
+        background-color: black;
+    }
+    header > div{
+        max-width: 767px; margin: 0 auto;
+    }
+    header::after{
+        content: ''; clear: both; display: block;
+    }
+    header > div h1{
+        float: left;
+        width: 35%;
+        line-height: 80px;
+        padding-left: 2%;
+    }
+    header > div h1 a{
+        display: block; text-indent: -9999px;
+        background: url('../images/main-logo.gif') no-repeat center / contain;
+    }
+    header > div nav{
+        float: left;
+        line-height: 80px;
+        width: 63%;
+        position: relative;
+        box-sizing: border-box;
+        padding-left: 2%;
+        text-align: right;
+    }
+    header > div nav ul{
+        display: none;
+    }
+    header > div nav button{
+        color: yellow; 
+        background: none;
+        border: none;
+        cursor: pointer;
+        line-height: inherit !important;
+    }
+    header > div > div{
+        display: none;
+        max-width: 767px;
+        width: 100%;
+        background-color: rgba(237,237,237,0.9);
+        clear: both;
+        padding: 30px 3% 30px 2%;
+        box-sizing: border-box;
+    }
+    header > div > div:after{
+        content: ''; display: block; visibility: hidden; clear: both;
+    }
+    header > div > div.active{
+        display: block;
+    }
+    header > div > div > div{
+        float: left; width: 48%; text-align: center;
+    }
+    header > div > div > div h2{
+        font-size: 10px;
+        font-weight: 400;
+        color: #121212;
+        border-bottom: 1px solid #bababa;
+        padding-bottom: 20px;
+        text-align: center;
+    }
+    header > div > div > div ul li{
+        list-style: none;
+        height: 50px;
+        padding-bottom: 20px;
+    }
+    header > div > div > div ul li:first-child{
+        padding-top: 20px;
+    }
+    header > div > div > div ul li a{
+        text-decoration: none;
+        font-size: 10px;
+        font-weight: 300;
+        color: #121212;
+        text-align: center;
+    }
+    footer{
+        background-color: #151515;
+    }
+    footer > div:first-of-type{
+        max-width: 1350px;
+        margin: 0 auto;
+        padding: 40px 2% 40px 3%; 
+        box-sizing: border-box;
+    }    
+    footer > div:first-of-type h2{
+        font-size: 12px;
+        color:#fff;
+        font-weight: 300;
+        margin-bottom: 20px;
+    }
+    footer > div div{
+        position: relative; box-sizing: border-box;
+        margin-bottom: 20px;
+    }
+    footer > div div ul{
+        list-style: none;
+        margin-bottom: 20px;
+    }
+    footer > div div ul li{
+        display: inline-block;
+    }
+    footer > div div ul li a{
+        text-decoration: none;
+        font-size: 10px; line-height: 12px;
+        font-weight: 300;
+        color: #ccc;
+    }
+    footer > div div span{
+        font-size: 10px; line-height: 16px;
+        font-weight: 300;
+        color: #ccc;
+    }
+    footer > div div span a{
+        font-size: 12px;
+        font-weight: 300;
+        color: #fff;
+        text-decoration: none;
+    }
+    footer > div > ul{
+        list-style: none;
+    }
+    footer > div > ul li{
+        display: inline-block;
+        font-size: 10px;
+        font-weight: 300;
+        color: #ccc; width: 100%;
+        line-height: 15px;
+    }
+    footer > div > ul li a{
+        text-decoration: none;
+        font-size: 12px;
+        font-weight: 300;
+        color: #ccc;
+    }
+    footer > div > ul li:not(:last-child){
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1279px){
+    header{
+        background-color: black;
+    }
+    header > div{
+        max-width: 1000px; margin: 0 auto;
+        padding-right: 3%;
+    }
+    header::after{
+        content: ''; clear: both; display: block;
+    }
+    header > div h1{
+        float: left;
+        width: 10%;
+        line-height: 80px;
+        padding-left: 2%;
+    }
+    header > div h1 a{
+        display: block; text-indent: -9999px;
+        background: url('../images/main-logo.gif') no-repeat center / contain;
+    }
+    header > div nav{
+        float: left;
+        padding-right: 56px;
+        line-height: 80px;
+        width: 88%;
+        position: relative;
+        box-sizing: border-box;
+    }
+    header > div nav ul{
+        text-align: right;
+    }
+    header > div nav ul li{
+        display: inline-block; line-height: 50px;
+        border-right: 1px solid yellow;
+        padding-right: 1.85%; 
+    }
+    header > div nav ul li:not(:first-child){
+        margin-left: 1.65%; 
+    }
+    header > div nav ul li a{
+        color: #fff;
+        font-size: 12px;
+        font-weight: 300;
+        text-decoration: none; display: block;
+        line-height: 16px;
+        word-break: keep-all;
+    }
+    header > div nav button{
+        position: absolute; right: 0;  top: 33%;
+        color: yellow; 
+        background: none;
+        border: none;
+        cursor: pointer;
+    }
+    header > div > div{
+        display: none;
+        width: 100%;
+        background-color: rgba(237,237,237,0.9);
+        clear: both;
+        padding: 30px 3% 30px 2%;
+        box-sizing: border-box;
+    }
+    header > div > div:after{
+        content: ''; display: block; visibility: hidden; clear: both;
+    }
+    header > div > div.active{
+        display: block;
+    }
+    header > div > div > div{
+        float: left;
+        max-width: 12.9%; 
+    }
+    header > div > div > div:not(:first-of-type){
+        margin-left: 4.44%;
+    }
+    header > div > div > div h2{
+        font-size: 20px;
+        font-weight: 400;
+        color: #121212;
+        border-bottom: 1px solid #bababa;
+        padding-bottom: 30px;
+    }
+    header > div > div > div ul li{
+        list-style: none;
+        padding-bottom: 20px;
+    }
+    header > div > div > div ul li:first-child{
+        padding-top: 20px;
+    }
+    header > div > div > div ul li a{
+        text-decoration: none;
+        font-size: 14px;
+        font-weight: 300;
+        color: #121212;
+        text-align: center;
+    }
+    footer{
+        background-color: #151515;
+    }
+    footer > div:first-of-type{
+        max-width: 1000px;
+        margin: 0 auto;
+        padding: 40px 2% 40px 3%; 
+        box-sizing: border-box;
+    }    
+    footer > div:first-of-type h2{
+        font-size: 16px;
+        color:#fff;
+        font-weight: 300;
+        margin-bottom: 20px;
+    }
+    footer > div div{
+        position: relative; padding-right: 63%; box-sizing: border-box;
+    }
+    footer > div div ul{
+        list-style: none;
+    }
+    footer > div div ul li{
+        display: inline-block;
+        border-right: 1px solid yellow;
+        padding-right: 3%;
+        line-height: 10px;
+        margin-bottom: 30px;
+    }
+    footer > div div ul li:not(:first-child){
+        margin-left: 2.5%;
+    }
+    footer > div div ul li a{
+        text-decoration: none;
+        font-size: 14px; line-height: 12px;
+        font-weight: 300;
+        color: #ccc;
+    }
+    footer > div div span{
+        position: absolute; right: 0; top: 0; width: 63%;
+        font-size: 14px; line-height: 16px;
+        font-weight: 300;
+        color: #ccc;
+    }
+    footer > div div span a{
+        font-size: 16px;
+        font-weight: 300;
+        color: #fff;
+        text-decoration: none;
+        margin: 0 2%;
+    }
+    footer > div > ul{
+        list-style: none;
+    }
+    footer > div > ul li{
+        display: inline-block;
+        font-size: 14px;
+        font-weight: 300;
+        color: #ccc;
+    }
+    footer > div > ul li a{
+        text-decoration: none;
+        font-size: 14px;
+        font-weight: 300;
+        color: #ccc;
+    }
+    footer > div > ul li:not(:last-child){
+        margin-bottom: 20px;
+    }
+    footer > div > ul li:nth-child(1),
+    footer > div > ul li:nth-child(2),
+    footer > div > ul li:nth-child(4){
+        padding-right: 2.5%;
+    }
+    footer > div > ul li:nth-child(2),
+    footer > div > ul li:nth-child(3),
+    footer > div > ul li:nth-child(5){
+        margin-left: 2.5%;
+    }
+    footer > div > ul li:nth-child(1),
+    footer > div > ul li:nth-child(2),
+    footer > div > ul li:nth-child(4){
+        border-right: 1px solid yellow;
+        line-height: 12px;
+    }
+}   
+
+@media screen and (min-width: 1280px) {
+    header{
+        background-color: black;
+    }
+    header > div{
+        max-width: 1350px; margin: 0 auto;
+    }
+    header::after{
+        content: ''; clear: both; display: block;
+    }
+    header > div h1{
+        float: left;
+        width: 12%;
+        line-height: 80px;
+    }
+    header > div h1 a{
+        display: block; text-indent: -9999px;
+        background: url('../images/main-logo.gif') no-repeat center / contain;
+    }
+    header > div nav{
+        float: left;
+        padding-right: 56px;
+        line-height: 80px;
+        width: 88%;
+        position: relative;
+        box-sizing: border-box;
+    }
+    header > div nav ul{
+        text-align: right;
+    }
+    header > div nav ul li{
+        display: inline-block; line-height: 50px;
+        border-right: 1px solid yellow;
+        padding-right: 1.85%; 
+    }
+    header > div nav ul li:not(:first-child){
+        margin-left: 1.65%; 
+    }
+    header > div nav ul li a{
+        color: #fff;
+        font-size: 16px;
+        font-weight: 300;
+        text-decoration: none; display: block;
+        line-height: 16px;
+        word-break: keep-all;
+    }
+    header > div nav button{
+        position: absolute; right: 0; top: 33%;
+        color: yellow; 
+        background: none;
+        border: none;
+        cursor: pointer;
+    }
+    header > div > div{
+        display: none; 
+        max-width: 1350px;
+        width: 100%;
+        background-color: rgba(237,237,237,0.9);
+        clear: both;
+        padding: 30px 4.44%;
+        box-sizing: border-box;
+    }
+    header > div > div:after{
+        content: ''; display: block; visibility: hidden; clear: both;
+    }
+    header > div > div.active{
+        display: block;
+    }
+    header > div > div > div{
+        float: left;
+        max-width: 12.22%; 
+    }
+    header > div > div > div:not(:first-of-type){
+        margin-left: 4.44%;
+    }
+    header > div > div > div h2{
+        font-size: 24px;
+        font-weight: 400;
+        color: #121212;
+        border-bottom: 1px solid #bababa;
+        padding-bottom: 30px;
+    }
+    header > div > div > div ul li{
+        list-style: none;
+        padding-bottom: 20px;
+    }
+    header > div > div > div ul li:first-child{
+        padding-top: 20px;
+    }
+    header > div > div > div ul li a{
+        text-decoration: none;
+        font-size: 16px;
+        font-weight: 300;
+        color: #121212;
+    }
+    footer{
+        background-color: #151515;
+    }
+    footer > div:first-of-type{
+        max-width: 1350px;
+        margin: 0 auto;
+        padding: 40px 5.3%;
+        box-sizing: border-box;
+    }    
+    footer > div h2{
+        font-size: 16px;
+        color:#fff;
+        font-weight: 300;
+        margin-bottom: 20px;
+    }
+    footer > div div{
+        position: relative; padding-right: 63%; box-sizing: border-box;
+    }
+    footer > div div ul{
+        list-style: none; margin-bottom: 30px;
+    }
+    footer > div div ul li{
+        display: inline-block;
+        border-right: 1px solid yellow;
+        padding-right: 4.5%;
+        line-height: 10px;
+    }
+    footer > div div ul li:not(:first-child){
+        margin-left: 4.5%;
+    }
+    footer > div div ul li a{
+        text-decoration: none;
+        font-size: 14px; line-height: 12px;
+        font-weight: 300;
+        color: #ccc;
+    }
+    footer > div div span{
+        position: absolute; right: 0; top: 0;
+        font-size: 14px; line-height: 16px;
+        font-weight: 300;
+        color: #ccc;
+    }
+    footer > div div span a{
+        font-size: 24px;
+        font-weight: 300;
+        color: #fff;
+        text-decoration: none;
+        margin-right: 20px;
+    }
+    footer > div > ul{
+        list-style: none;
+    }
+    footer > div > ul li{
+        display: inline-block;
+        font-size: 14px;
+        font-weight: 300;
+        color: #ccc;
+    }
+    footer > div > ul li a{
+        font-size: 14px;
+        font-weight: 300;
+        color: #ccc;
+        text-decoration: none;
+    }
+    footer > div > ul li:nth-child(1),
+    footer > div > ul li:nth-child(2),
+    footer > div > ul li:nth-child(3),
+    footer > div > ul li:nth-child(4),
+    footer > div > ul li:nth-child(5){
+        margin-bottom: 20px;
+    }
+    footer > div:first-of-type > ul li:nth-child(2),
+    footer > div:first-of-type > ul li:nth-child(3),
+    footer > div:first-of-type > ul li:nth-child(4),
+    footer > div:first-of-type > ul li:nth-child(5),
+    footer > div:first-of-type > ul li:nth-child(7){
+        margin-left: 1.7%;
+    }
+    footer > div:first-of-type > ul li:nth-child(1),
+    footer > div:first-of-type > ul li:nth-child(2),
+    footer > div:first-of-type > ul li:nth-child(3),
+    footer > div:first-of-type > ul li:nth-child(4),
+    footer > div:first-of-type > ul li:nth-child(6){
+        border-right: 1px solid yellow;
+        padding-right: 1.7%;
+        line-height: 12px;
+    }
+}   
+/* pc ~ */

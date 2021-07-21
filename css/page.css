@@ -1,0 +1,2511 @@
+/* media Query 범주잡기 */
+@media screen and (max-width: 767px){
+    section[class^=mainpage]{
+        display: block; margin: 0 auto; max-width: 767px; margin-bottom: 150px;
+    }
+    section[class=mainpage_banner_3]> ul li:nth-of-type(1),
+    section[class=mainpage_banner_3]> ul li:nth-of-type(2){
+        float: left; width: 50%;
+    }
+    section[class^=mainpage_banner_3] > ul li:nth-of-type(1) figure img,
+    section[class^=mainpage_banner_3] > ul li:nth-of-type(2) figure img{
+        width: 100%;
+    }
+    section[class^=mainpage] > figure img,
+    section[class^=mainpage_banner_3] > ul li:last-of-type figure img{
+        width: 100%; 
+    }
+    section[class^=mainpage] > figure img,
+    section[class^=mainpage_banner_3] > ul li figure img{
+        opacity: 0.6;
+    }
+    section[class=mainpage_banner_3]> ul li:last-of-type{
+       content: ''; clear: both; display: block; 
+    }
+    section[class^=mainpage]:not(.mainpage_banner_1) > h2{
+        display: inline-block; font-size: 12px; font-weight: 300; color: #fff; margin-bottom: 20px;
+        border-left: 1px solid yellow; border-right: 1px solid yellow; padding: 0 10px; margin-left: 2%;
+    }
+    section[class^=mainpage]:not(.mainpage_banner_3) > figure,
+    section.mainpage_banner_3 > ul li figure{
+        position: relative;
+    }
+    section[class^=mainpage] figure figcaption{
+        position: absolute; bottom: 0; left: 0; width: 100%; box-sizing: border-box;
+        padding: 50px 4.5%; 
+    }
+    section[class=mainpage_banner_3]> ul li:not(:last-of-type) figure figcaption{
+        padding: 40px 10%;
+    }
+    section[class^=mainpage]:not(.mainpage_banner_3) > figure figcaption a,
+    section.mainpage_banner_3 > ul li figure figcaption a{
+        text-decoration: none;
+    }
+    section[class^=mainpage]:not(.mainpage_banner_3) > figure figcaption a small,
+    section.mainpage_banner_3 > ul li figure figcaption a small{
+        font-size: 10px; color: #fff; font-weight: 300; display: inline-block; margin-bottom: 10px;
+        border-left: 1px solid yellow; border-right: 1px solid yellow; padding: 0 10px; line-height: 10px;
+    }
+    section[class^=mainpage]:not(.mainpage_banner_3) > figure figcaption a h3,
+    section.mainpage_banner_3 > ul li figure figcaption a h3{
+        font-size: 12px; color: #fff; font-weight: 300; margin-bottom: 20px;
+    }
+    section[class^=mainpage]:not(.mainpage_banner_3) > figure figcaption a p,
+    section.mainpage_banner_3 > ul li figure figcaption a p{
+        font-size: 10px; color: #ededed; font-weight: 300;
+    }
+    /* ?mainPage Fin */
+    
+    
+    section[class^=list]{
+        max-width: 767px; margin: 0 auto; display: block;
+    }
+    section[class^=list] > h2{
+        display: none;
+    }
+    section[class^=list] > ul{
+        padding: 0 3% 0 2%;
+    }
+    section[class^=list] > ul::after{
+        content: ''; clear: both; display: block; 
+    }
+    section[class^=list] > ul li{
+        float: left; width: 100%;  list-style: none;  margin-bottom: 50px; margin-top: 50px;
+    }
+    section[class^=list] > ul li figure img{
+        width: 100%; margin-bottom: 20px;
+    }
+    section[class^=list] > ul li figure figcaption{
+        position: relative; padding-bottom: 20px; box-sizing: border-box;
+    }
+    section[class^=list] > ul li figure figcaption a{
+        text-decoration: none; display: block;
+    }
+    section[class^=list] > ul li figure figcaption a > *{
+        display: block; font-weight: 300;
+    }
+    section[class^=list] > ul li figure figcaption a span:first-of-type{
+        font-size: 14px; color: #212121; margin-bottom: 20px; font-weight: 500; line-height: 20px;
+    }
+    section[class^=list] > ul li figure figcaption a span:last-of-type{
+        font-size: 16px; color: #121212; margin-bottom: 15px; font-weight: 300;
+    }
+    section[class^=list] > ul li figure figcaption a small{
+        position: absolute; bottom: 0; font-size: 10px; color: #666; font-weight: 300;
+    }
+    
+    /*list fin */
+    
+    section[class$=Detail]{
+        max-width: 767px; margin: 60px auto 100px; display: block;
+        padding: 0 2% 0 3%;
+    }
+    section[class$=Detail] > div[class$=purchase]{
+        margin-bottom: 150px;
+    }
+    section[class$=Detail] > div[class$=purchase]::after{
+        content: ''; clear: both; display: block;
+    }
+    section[class$=Detail] > div[class$=purchase] > img{
+        width: 100%; float: left; margin-bottom: 20px;
+    }
+    section[class$=Detail] > div[class$=purchase] div{
+        width: 100%; float: left;
+    }
+    section[class$=Detail] > div[class$=purchase] div > span{
+        font-size: 16px; font-weight: 300; color: #787878; display: block;
+        position: relative;
+    }
+    section[class$=Detail] > div[class$=purchase] div span small{
+        font-size: 14px; font-weight: 300; color: #212121;
+        position: absolute; right: 0;
+    }
+    section[class$=Detail] > div[class$=purchase] small{
+        font-size: 14px; font-weight: 300; color: #212121;
+        text-align: left; 
+    }
+    section[class$=Detail] > div[class$=purchase] div fieldset{
+        margin-bottom: 50px; 
+    }
+    section[class$=Detail] > div[class$=purchase] div fieldset ul li{
+        list-style: none; border-bottom: 1px solid #dedede; box-sizing: border-box; 
+        margin-top: 20px; padding-bottom: 30px; display: block; line-height: 30px; 
+    }
+    section[class$=Detail] > div[class$=purchase] div fieldset ul li::after{
+        content: ''; clear: both; display: block;
+    }
+    section[class$=Detail] > div[class$=purchase] div fieldset ul li :first-child{
+        float: left; width: 100%;
+        font-size: 16px; font-weight: 300; color: #121212; 
+    }
+    section[class$=Detail] > div[class$=purchase] div fieldset ul li:not(:nth-of-type(4)) :last-child{
+         float: left; text-align: left; width: 100%; 
+    }
+    section[class$=Detail] > div[class$=purchase] div fieldset ul li:nth-of-type(1) input,
+    section[class$=Detail] > div[class$=purchase] div fieldset ul li:nth-of-type(2) input,
+    section[class$=Detail] > div[class$=purchase] div fieldset ul li:nth-of-type(4) input{
+        border: none; box-sizing: border-box;
+    }
+    section[class$=Detail] > div[class$=purchase] div fieldset ul li:nth-of-type(1) :last-child{
+        font-size: 16px; font-weight: 300; color: #121212;
+    }
+    section[class$=Detail] > div[class$=purchase] div fieldset ul li:nth-of-type(2) :last-child,
+    section[class$=Detail] > div[class$=purchase] div fieldset ul li:nth-of-type(4) :last-child{
+        font-size: 16px; font-weight: 300; color: #121212;
+    }
+    section[class$=Detail] > div[class$=purchase] div fieldset ul li:nth-of-type(3) :last-child{
+        font-size: 12px; border: 1px solid #dedede; padding: 10px; box-sizing: border-box;
+    }
+    section[class$=Detail] > div[class$=purchase] div fieldset ul li:nth-of-type(4) :nth-child(2),
+    section[class$=Detail] > div[class$=purchase] div fieldset ul li:nth-of-type(4) :last-child{
+        float: left; text-align: right;  font-weight: 300; color: #121212;
+    }
+    section[class$=Detail] > div[class$=purchase] div fieldset ul li:nth-of-type(4) :nth-child(2){
+        font-size: 20px; display: inline-block; line-height: 29px; width: 90%;
+    }
+    section[class$=Detail] > div[class$=purchase] div fieldset ul li:nth-of-type(4) :last-child{
+        font-size: 16px; width: 7%; display: inline-block;
+    }
+    section[class$=Detail] > div[class$=purchase] div input[type='submit']{
+        border: 1px solid black; line-height: 50px; width: 30%; display: inline-block; box-sizing: border-box; 
+        background-color: black; color: #dedede; font-size: 14px; font-weight: 300; margin-right: 30%;
+    }
+    section[class$=Detail] > div[class$=purchase] div a{
+        text-decoration: none; font-size: 14px; font-weight: 300; box-sizing: border-box;
+        border: 1px solid #dedede; background-color: white; color: #121212; 
+        display: block; width: 40%; line-height: 52px; text-align: center; float: right;
+    }
+    
+    /* purchase class fin */
+    
+    section[class$=Detail] > figure[class$=explanation] img{
+        width: 100%; margin: 0 auto 150px; display: block;
+    }
+    section[class$=Detail] > figure[class$=explanation] figcaption{
+        padding-left: 5%; padding-right: 5%; box-sizing: border-box;
+    }
+    section[class$=Detail] > figure[class$=explanation] figcaption h3{
+        font-size: 20px; font-weight: 500; color: #121212; margin-bottom: 25px;
+    }
+    section[class$=Detail] > figure[class$=explanation] figcaption p{
+        font-size: 14px; font-weight: 300; color: #121212; margin-bottom: 20px;
+        line-height: 30px;
+    }
+    
+    /* explanation class fin */
+
+    section[class$=Detail] > ul[class$=info]{
+        width: 100%; margin-bottom: 150px;
+    }
+    section[class$=Detail] > ul[class$=info]::after{
+        content: ''; clear: both; display: block;
+    }
+    section[class$=Detail] > ul[class$=info] > li{
+        list-style: none; float: left; width: 100%; margin-bottom: 4%; padding-bottom: 50px;
+        background-repeat: no-repeat; background-size: 157px 117px; background-position: center;
+        background-color: #f9f9f9;
+    }
+    section[class$=Detail] > ul[class$=info] > li:nth-of-type(1){
+        background-image: url('../images/distinct_1.jpg');
+    } 
+    section[class$=Detail] > ul[class$=info] > li:nth-of-type(2){
+        background-image: url('../images/distinct_2.jpg');
+    }
+    section[class$=Detail] > ul[class$=info] > li:nth-of-type(3){
+        background-image: url('../images/distinct_3.jpg');
+    }
+    section[class$=Detail] > ul[class$=info] > li:nth-of-type(4){
+        background-image: url('../images/distinct_4.jpg');
+    }
+    section[class$=Detail] > ul[class^=detail_fabric] > li h3,
+    section[class$=Detail] > ul[class^=detail_fabric] > li p{
+        text-align: center;
+    }
+    section[class$=Detail] > ul[class$=info] > li h3{
+        font-size: 16px; font-weight: 500; color: #121212; padding-top: 350px; margin-bottom: 20px; 
+        text-align: center;
+    }
+    section[class$=Detail] > ul[class$=info] > li p{
+        font-size: 14px; font-weight: 300; color: #121212; line-height: 30px; text-align: center;
+        padding: 0 3%;
+    }
+    section[class$=Detail] > ul[class$=info_2]{
+        margin-bottom: 150px;
+    }
+    section[class$=Detail] > ul[class$=info_2]::after{
+        content: ''; clear: both; display: block;
+    }
+    section[class$=Detail] > ul[class$=info_2] > li{
+        list-style: none; float: left; width: 100%; margin-bottom: 2%;  
+        background-repeat: no-repeat; background-position: center top;
+        background-size: 113px 104px; padding-bottom: 30px;
+    }
+    section[class$=Detail] > ul[class$=info_2] > li:nth-of-type(1){
+        background-image: url('../images/distinct_5.png');
+    }
+    section[class$=Detail] > ul[class$=info_2] > li:nth-of-type(2){
+        background-image: url('../images/distinct_6.png');
+    }
+    section[class$=Detail] > ul[class$=info_2] > li:nth-of-type(3){
+        background-image: url('../images/distinct_7.png');
+    }
+    section[class$=Detail] > ul[class$=info_2] > li:nth-of-type(4){
+        background-image: url('../images/distinct_8.png');
+    }
+    section[class$=Detail] > ul[class$=info_2] > li:nth-of-type(5){
+        background-image: url('../images/distinct_9.png');
+    }
+    section[class$=Detail] > ul[class$=info_2] > li h3{
+        font-size: 16px; font-weight: 500; color: #121212; padding-top: 130px; margin-bottom: 20px;
+    }
+    section[class$=Detail] > ul[class$=info_2] > li p{
+        font-size: 14px; font-weight: 300; color: #121212; line-height: 20px; 
+    }
+    section[class$=Detail] > ul[class$=info_3]{
+        margin-bottom: 150px;
+    }
+    section[class$=Detail] > ul[class$=info_3]::after{
+        content: ''; clear: both; display: block;
+    }
+    section[class$=Detail] > ul[class$=info_3] > li{
+        list-style: none; float: left; width: 100%; margin-bottom: 30px;
+        background-repeat: no-repeat; background-size: 124px 108px; background-position: center top;
+    }
+    section[class$=Detail] > ul[class$=info_3] > li:nth-of-type(1){
+        background-image: url('../images/distinct_10.jpg');
+    }
+    section[class$=Detail] > ul[class$=info_3] > li:nth-of-type(2){
+        background-image: url('../images/distinct_11.jpg');
+    }
+    section[class$=Detail] > ul[class$=info_3] > li:nth-of-type(3){
+        background-image: url('../images/distinct_12.jpg');
+    }
+    section[class$=Detail] > ul[class$=info_3] > li:nth-of-type(4){
+        background-image: url('../images/distinct_13.jpg');
+    }
+    section[class$=Detail] > ul[class$=info_3] > li:nth-of-type(5){
+        background-image: url('../images/distinct_14.jpg');
+    }
+    section[class$=Detail] > ul[class$=info_3] > li:nth-of-type(6){
+        background-image: url('../images/distinct_15.jpg');
+    }
+    section[class$=Detail] > ul[class$=info_3] > li h3{
+        font-size: 16px; font-weight: 500; color: #121212; margin-bottom: 20px; padding-top: 120px;
+    }
+    section[class$=Detail] > ul[class$=info_3] > li p{
+        font-size: 14px; font-weight: 300; color: #121212; line-height: 20px;
+    }
+    
+    /* fabric_info class fin */
+
+    section[class$=Detail] > div[class$=designpoint] figure{
+        margin-bottom: 150px;
+    }
+    section[class$=Detail] > div[class$=designpoint] figure img{
+        width: 100%; margin: 0 auto; display: block;
+    }
+    section[class$=Detail] > div[class$=designpoint] figure figcaption{
+        margin-bottom: 30px;
+    }
+    section[class$=Detail] > div[class$=designpoint] figure figcaption h3{
+        font-size: 20px; font-weight: 300; color: #787878; margin-bottom: 30px;
+    }
+    section[class$=Detail] > div[class$=designpoint] figure figcaption p{
+        line-height: 20px;
+    }
+    section[class$=Detail] > div[class$=designpoint] figure figcaption p:nth-of-type(1){
+        font-weight: 500; color: #121212; margin-bottom: 30px; font-size: 16px;
+    }
+    section[class$=Detail] > div[class$=designpoint] figure figcaption p:nth-of-type(2){
+        font-weight: 300; color: #212121; font-size: 14px;
+    }
+    
+    /* designpoint class fin */
+    
+    section[class$=Detail] > div[class$=background] img{
+        width: 100%; margin: 0 auto 150px; max-width: 1200px;
+        display: block;
+    }
+    
+    /* background class fin */
+    
+    section[class$=Detail] > div[class$=back] img{
+        width: 100%; margin: 0 auto 150px; display: block; max-width: 800px; 
+    }
+    
+    /* front_and_back class fin */
+    
+    section[class$=Detail] > div[class$=laundry]{
+        margin-bottom: 150px;
+    }
+    section[class$=Detail] > div[class$=laundry] > h3{
+        text-align: center; font-size: 20px; font-weight: 500; color: #121212;
+        margin-bottom: 60px;
+    }
+    section[class$=Detail] > div[class$=laundry] > h3 small{
+        text-align: center; font-size: 16px; font-weight: 300; color: #121212;
+        display: block; margin-top: 30px; 
+    }
+    section[class$=Detail] > div[class$=laundry] ul::after{
+        content: ''; clear: both; display: block;
+    }
+    section[class$=Detail] > div[class$=laundry] ul li{
+        list-style: none; float: left; width: 100%; padding: 17px 0; margin-bottom: 8%;
+        background-size: 71px 71px; background-repeat: no-repeat; background-position: left center;
+    }
+    /* section[class$=Detail] > div[class$=laundry] ul li:nth-child(even){
+        margin-left: 8%;
+    } */
+    section[class$=Detail] > div[class$=laundry] ul li:nth-of-type(1){
+        background-image: url('../images/wash_warning_1.gif');
+    }
+    section[class$=Detail] > div[class$=laundry] ul li:nth-of-type(2){
+        background-image: url('../images/wash_warning_2.png');
+    }
+    section[class$=Detail] > div[class$=laundry] ul li:nth-of-type(3){
+        background-image: url('../images/wash_warning_3.gif');
+    }
+    section[class$=Detail] > div[class$=laundry] ul li:nth-of-type(4){
+        background-image: url('../images/wash_warning_4.gif');
+    }
+    section[class$=Detail] > div[class$=laundry] ul li:nth-of-type(5){
+        background-image: url('../images/wash_warning_5.gif');
+    }
+    section[class$=Detail] > div[class$=laundry] ul li:nth-of-type(6){
+        background-image: url('../images/wash_warning_6.gif');
+    }
+    section[class$=Detail] > div[class$=laundry] ul li:nth-of-type(7){
+        background-image: url('../images/wash_warning_7.gif');
+    }
+    section[class$=Detail] > div[class$=laundry] ul li:nth-of-type(8){
+        background-image: url('../images/wash_warning_8.gif');
+    }
+    section[class$=Detail] > div[class$=laundry] ul li h3{
+        font-size: 20px; font-weight: 500; color: #121212; padding-left: 30%; margin-bottom: 20px;
+    }
+    section[class$=Detail] > div[class$=laundry] ul li p{
+        font-size: 14px; font-weight: 300; color: #121212; padding-left: 30%; line-height: 20px;
+    }
+    section[class$=Detail] > div[class$=laundry] > p{
+        font-size: 12px; font-weight: 300; color: #121212; text-align: center; line-height: 20px;
+    }
+    
+    /* laundry class fin */
+    
+    section[class$=Detail] > div[class$=size]{
+        margin: 0 auto 150px; display: block; width: 100%;
+    }
+    section[class$=Detail] > div[class$=size] > h3{
+        font-size: 24px; font-weight: 300; color: #787878; margin-bottom: 60px;
+    }
+    section[class$=Detail] > div[class$=size] img{
+        width: 100%; margin: 0 auto 30px; max-width: 450px; display: block;
+    }
+    section[class$=Detail] > div[class$=size] table{
+        border: 1px solid #e8e8e8; margin: 0 auto; display: table; width: 100%;
+    }
+    section[class$=Detail] > div[class$=size] table caption{
+        display: none;
+    }
+    section[class$=Detail] > div[class$=size] table thead{
+        font-size: 10px; font-weight: 500; color: #121212;
+    }
+    section[class$=Detail] > div[class$=size] table tbody{
+        font-size: 10px; font-weight: 300; color: #121212;
+    }
+    section[class$=Detail] > div[class$=size] table thead th,
+    section[class$=Detail] > div[class$=size] table tbody th,
+    section[class$=Detail] > div[class$=size] table tbody td{
+        border: 1px solid #e8e8e8; padding: 5%; text-align: center; 
+    }
+    section[class$=Detail] > div[class$=size] table thead th,
+    section[class$=Detail] > div[class$=size] table tbody th{
+        background-color: #f7f7f7;
+    }
+    
+    /* clothes size class fin */
+    
+    section[class$=Detail] > div[class^=delivery]{
+        margin-bottom: 30px;
+    }
+    section[class$=Detail] > div[class^=delivery] h3{
+        font-size: 20px; font-weight: 500; color: #121212; margin-bottom: 30px;
+    }
+    section[class$=Detail] > div[class^=delivery] table{
+        border: 1px solid #e8e8e8; text-align: center; display: table; width: 100%;
+    }
+    section[class$=Detail] > div[class^=delivery] table caption{
+        font-size: 16px; font-weight: 500; color: #121212; text-align: left; margin-bottom: 30px;
+    }
+    section[class$=Detail] > div[class^=delivery] table tbody th,
+    section[class$=Detail] > div[class^=delivery] table tbody td{
+        border: 1px solid #e8e8e8;
+    }
+    section[class$=Detail] > div[class^=delivery] table tbody th{
+        padding: 3%; text-align: center; background-color: #f7f7f7;
+        vertical-align: middle; font-size: 12px; font-weight: 500; color: #121212;
+        width: 30%; box-sizing: border-box;
+    }
+    section[class$=Detail] > div[class^=delivery] table tbody td:first-of-type,
+    section[class$=Detail] > div[class^=delivery] table tbody td:nth-of-type(2){
+        vertical-align: middle;
+    }
+    section[class$=Detail] > div[class^=delivery] table tbody td:nth-of-type(3),
+    section[class$=Detail] > div[class^=delivery] table tbody td:nth-of-type(4),
+    section[class$=Detail] > div[class^=delivery] table tbody td:last-of-type{
+        text-align: left; 
+    }
+    section[class$=Detail] > div[class^=delivery] table tbody td{
+        padding: 2%; font-size: 12px; font-weight: 300; color: #121212; line-height: 30px;
+        width: 70%; box-sizing: border-box;
+    }
+    section[class$=Detail] > div[class^=delivery] table tbody tr:nth-of-type(3) td,
+    section[class$=Detail] > div[class^=delivery] table tbody tr:last-of-type td{
+        padding-bottom: 30px;
+    }
+    
+    /* delivery class fin */
+    
+    section[class$=Detail] > div[class^=exchange]{
+        margin-bottom: 20px;
+    }
+    section[class$=Detail] > div[class^=exchange] p{
+        font-size: 16px; font-weight: 500; color: #121212; margin-bottom: 30px;
+    }
+    section[class$=Detail] > div[class^=exchange] table{
+        border: 1px solid #e8e8e8; text-align: center; display: table; width: 100%;
+    }
+    section[class$=Detail] > div[class^=exchange] table caption{
+        display: none;
+    }
+    section[class$=Detail] > div[class^=exchange] table tbody th,
+    section[class$=Detail] > div[class^=exchange] table tbody td{
+        border: 1px solid #e8e8e8;
+    }
+    section[class$=Detail] > div[class^=exchange] table tbody th{
+        text-align: center; background-color: #f7f7f7; vertical-align: middle;
+        padding: 3%; font-size: 12px; font-weight: 500; color: #121212; line-height: 30px;
+        width: 30%; box-sizing: border-box;
+    }
+    section[class$=Detail] > div[class^=exchange] table tbody td{
+        text-align: left; padding: 2%; font-size: 10px; font-weight: 300; color: #121212;
+        line-height: 20px; width: 70%; vertical-align: middle; box-sizing: border-box;
+    }
+    
+    /* exchange class fin */
+
+    section[class$=Detail] > a{
+        display: block; text-decoration: none; border: 1px solid black; color: #787878; 
+        padding: 10px; font-size: 14px; color: #121212; width: 100px; float: right; text-align: center;
+    }
+
+    /* Detail page fin */
+
+    section[class=etcpage_login]{
+        max-width: 767px; padding: 150px 5% 300px 2%; display: block; 
+    }
+    section[class=etcpage_login] h2{
+        font-size: 20px; font-weight: 500; color: #121212; margin-bottom: 50px;
+    }
+    section[class=etcpage_login] fieldset legend{
+        font-size: 16px; font-weight: 300; color: #121212; margin-bottom: 20px;
+    }
+    section[class=etcpage_login] input[type='text'],
+    section[class=etcpage_login] input[type='password']{
+        display: block; border: 1px solid #bababa; font-size: 12px; font-weight: 300; color: #bababa;
+        padding: 10px 0 10px 2%; width: 100%;
+    }
+    section[class=etcpage_login] input[type='password']{
+        border-top: none; margin-bottom: 20px;
+    }
+    section[class=etcpage_login] fieldset label{
+        font-size: 12px; font-weight: 300; color: #121212; vertical-align: middle;
+    } 
+    section[class=etcpage_login] input[type='submit']{
+        margin-top: 20px; border-radius: 10px; background-color: black; font-size: 12px; font-weight: 300; color: #ededed;
+        padding-top: 10px; padding-bottom: 10px; margin-bottom: 30px; box-sizing: border-box; width: 100%; border: none; text-align: center;
+    }
+    section[class=etcpage_login] div{
+        position: relative; width: 100%
+    }
+    section[class=etcpage_login] div a{
+        text-decoration: none; font-size: 12px; font-weight: 300; color: #121212;
+        display: inline-block;       
+    }
+    section[class=etcpage_login] div a:last-of-type{
+        position: absolute; right: 0;
+    }
+
+    /* etcpage login fin */
+
+    section[class=etcpage_join]{
+        max-width: 767px; margin: 80px auto; display: block;  padding: 0 3% 0 2%;
+    }
+    section[class=etcpage_join] h2{
+        font-size: 16px; font-weight: 500; color: #121212; margin-bottom: 50px; text-align: center;
+    }
+    section[class=etcpage_join] fieldset{
+        border: 1px solid #ccc; margin-bottom: 50px;
+    }
+    section[class=etcpage_join] fieldset legend{
+        display: none;
+    }
+    section[class=etcpage_join] fieldset ul{
+        padding: 60px 10%; list-style: none;
+    }
+    section[class=etcpage_join] fieldset ul li:not(:last-of-type){
+        margin-bottom: 50px; display: block;
+    }
+    section[class=etcpage_join] fieldset ul li label{
+        font-size: 12px; font-weight: 300; color: #121212; 
+    }
+    section[class=etcpage_join] fieldset ul li input{
+        display: block; margin-top: 20px; border: none; border-bottom: 1px solid #ccc;
+        font-size: 12px; font-weight: 300; color: #ccc; line-height: 30px; width: 100%;
+    }
+    section[class=etcpage_join] fieldset div{
+        padding-left: 11%; margin-bottom: 60px;
+    }
+    section[class=etcpage_join] fieldset div input[type='radio']{
+        border: 1px solid #ccc;
+    }
+    section[class=etcpage_join] fieldset div input[type='radio']:not(:first-of-type){
+        margin-left: 3%;
+    }
+    section[class=etcpage_join] fieldset div label{
+        vertical-align: middle; font-size: 12px; font-weight: 300; color: #121212;
+    }
+    section[class=etcpage_join] input[type='submit']{
+        font-size: 12px; font-weight: 300; color: #ededed; background-color: black; border: none;
+        border-radius: 5px; padding: 2%; display: block; margin: 0 auto; width: 100px;
+    }
+
+    /* etcpage join fin */
+
+    section[class$=service]{
+        max-width: 767px; margin: 80px auto; display: block; padding: 0 3% 0 2%;
+    }
+    section[class$=service] h2{
+        font-size: 20px; font-weight: 300; color: #121212; margin-bottom: 60px;
+    }
+    section[class=etcpage_terms_of_service] p{
+        font-size: 10px; font-weight: 300; color: #333; margin-bottom: 60px;
+    }
+    section[class$=service] ul{
+        list-style: none;
+    }
+    section[class$=service] ul li:not(:last-of-type){
+        margin-bottom: 120px; border-bottom: 1px solid #dedede; 
+    }
+    section[class$=service] ul li h3{
+        font-size: 16px; font-weight: 300; color: #121212; margin-bottom: 30px;
+    }
+    section[class$=service] ul li p{
+        font-size: 10px; font-weight: 300; color: #333; margin-bottom: 30px; line-height: 25px;
+    }
+
+    /* etcpage service fin */
+
+    section[class=etcpage_notice_detail]{
+        max-width: 1350px; margin: 120px auto 80px; display: block; padding: 0 3% 0 2%;
+    }
+    section[class=etcpage_notice_detail] h2{
+        font-size: 20px; font-weight: 500; color: #121212; margin-bottom: 60px;
+    }
+    section[class=etcpage_notice_detail] h2 small{
+        font-size: 14px; font-weight: 300; color: #454545; margin-top: 20px; display: block;        
+    }
+    section[class=etcpage_notice_detail] > div{
+        margin-bottom: 50px;
+    }
+    section[class=etcpage_notice_detail] > div p{
+        font-size: 12px; font-weight: 300; line-height: 20px; 
+    }
+    section[class=etcpage_notice_detail] > div p:first-of-type{
+        color: #454545; margin-bottom: 50px;
+    }
+    section[class=etcpage_notice_detail] > div p:not(:first-of-type){
+        color: #121212; margin-bottom: 30px;
+    }
+    section[class=etcpage_notice_detail] ul{
+        list-style: none; margin-bottom: 20px; border-bottom: 1px solid #bababa;
+    }
+    section[class=etcpage_notice_detail] li:not(:last-of-type){
+        margin-bottom: 50px;
+    }
+    section[class=etcpage_notice_detail] ul li mark{
+        font-size: 12px; font-weight: 300; color: #ededed; background-color: black; margin-bottom: 30px;
+        padding: 15px 5%; text-align: center; box-sizing: border-box; display: inline-block;  line-height: 20px;
+    }
+    section[class=etcpage_notice_detail] ul li p{
+        font-size: 12px; font-weight: 300; line-height: 20px;
+    }
+    section[class=etcpage_notice_detail] ul li:first-of-type p:first-of-type,
+    section[class=etcpage_notice_detail] ul li:nth-of-type(2) p:first-of-type{
+        margin-bottom: 30px;
+    }
+    section[class=etcpage_notice_detail] ul li:first-of-type p:first-of-type,
+    section[class=etcpage_notice_detail] ul li:nth-of-type(2) p:first-of-type,
+    section[class=etcpage_notice_detail] ul li:first-of-type p:nth-of-type(2),
+    section[class=etcpage_notice_detail] ul li:nth-of-type(2) p:nth-of-type(2),
+    section[class=etcpage_notice_detail] ul li:last-of-type p{
+        color: #121212;
+    }
+    section[class=etcpage_notice_detail] ul li:first-of-type p:last-of-type,
+    section[class=etcpage_notice_detail] ul li:nth-of-type(2) p:last-of-type{
+        color: #bababa;
+    }
+    section[class=etcpage_notice_detail] ul li address{
+        border: 1px solid #bababa; font-size: 12px; font-weight: 300; color: #121212;
+        display: block; width: 100%; text-align: center; padding: 10px; box-sizing: border-box;
+        margin-bottom: 30px; line-height: 20px;
+    }
+    section[class=etcpage_notice_detail] div:nth-of-type(2)::after{
+        content: ''; clear: both; display: block; 
+    }
+    section[class=etcpage_notice_detail] div:nth-of-type(2) a{
+        background-color: black; font-size: 12px; font-weight: 500; color: #ededed;
+        text-decoration: none; text-align: center; padding: 10px 0; width: 100px; display: block;
+        float: right; box-sizing: border-box;
+    }
+
+    /* etcpage notice_detail fin */
+    section[class=etcpage_notice]{
+        max-width: 767px; margin: 170px auto 380px; display: block; padding: 0 3% 0 2%;
+    }
+    section[class=etcpage_notice] h2{
+        background-color: black; font-size: 16px; font-weight: 300; color: #ededed; text-align: center;
+        padding: 15px 0; box-sizing: border-box; margin-bottom: 25px;
+    }
+    section[class=etcpage_notice] ul{
+        list-style: none; 
+    }
+    section[class=etcpage_notice] form fieldset{
+        float: right; margin-bottom: 30px; width: 100%; display: block;
+    }
+    section[class=etcpage_notice] form fieldset input[type='search']{
+        margin-top: 20px; width: 100%;
+    }
+    [class=etcpage_notice] ul li:first-of-type::after{
+        content: ''; clear: both; display: block;
+    }
+    section[class=etcpage_notice] form fieldset label{
+        font-size: 12px; font-weight: 300; color: #454545; vertical-align: middle;
+    }
+    [class=etcpage_notice] ul li:first-of-type{
+        border-top: 1px solid #bababa; line-height: 50px;
+    }
+    [class=etcpage_notice] ul li:first-of-type,
+    section[class=etcpage_notice] ul li:last-of-type{
+        float: left; display: block; width: 100%; border-bottom: 1px solid #bababa;
+        line-height: 50px;
+    }
+    [class=etcpage_notice] ul li:first-of-type span,
+    section[class=etcpage_notice] ul li:last-of-type span{
+        font-size: 10px; color: #121212; text-align: center;
+    }
+    section[class=etcpage_notice] ul li:first-of-type span:nth-of-type(2){
+        width: 60%; display: inline-block; font-weight: 300;
+    }
+    section[class=etcpage_notice] ul li:first-of-type span:last-of-type{
+        width: 37%; display: inline-block; font-weight: 300;
+    } 
+    section[class=etcpage_notice] ul li:first-of-type span:first-of-type,
+    section[class=etcpage_notice] ul li:first-of-type span:nth-of-type(3),
+    section[class=etcpage_notice] ul li:first-of-type span:nth-of-type(4){
+        display: none;
+    }
+    section[class=etcpage_notice] ul li:last-of-type span:nth-of-type(2){
+        width: 60%; display: inline-block; font-weight: 500;
+    }
+    section[class=etcpage_notice] ul li:last-of-type span:last-of-type{
+        width: 37%; display: inline-block; font-weight: 300;
+    }
+    section[class=etcpage_notice] ul li:last-of-type span:first-of-type,
+    section[class=etcpage_notice] ul li:last-of-type span:nth-of-type(3),
+    section[class=etcpage_notice] ul li:last-of-type span:nth-of-type(4){
+        display: none;
+    }
+
+    /* etcpage notice fin */
+
+    section[class=etcpage_shopping]{
+        max-width: 767px; margin: 80px auto 300px; display: block;
+        padding: 0 3% 0 2%;
+    }
+    section[class=etcpage_shopping] h2{
+        display: none;
+    }
+    section[class=etcpage_shopping] fieldset{
+        margin-bottom: 70px;
+    }
+    section[class=etcpage_shopping] fieldset legend{
+        font-size: 24px; font-weight: 500; color: #121212; margin-bottom: 60px; text-align: center;
+    }
+    section[class=etcpage_shopping] fieldset ul{
+        list-style: none; 
+    }
+    section[class=etcpage_shopping] fieldset ul li input[type='checkbox']{
+        display: none;
+    }
+    section[class=etcpage_shopping] fieldset ul li:first-of-type{
+        border-top: 1px solid #bababa; border-bottom: 1px solid #bababa; line-height: 50px;
+        width: 100%;
+    }
+    section[class=etcpage_shopping] fieldset ul li:last-of-type{
+        border-bottom: 1px solid #bababa; line-height: 25px; width: 100%; padding: 5% 0; 
+    }
+    section[class=etcpage_shopping] fieldset ul li span{
+        text-align: center; font-size: 14px; font-weight: 300; color: #121212;
+        vertical-align: middle;
+    }
+    section[class=etcpage_shopping] fieldset ul li:first-of-type span:first-of-type,
+    section[class=etcpage_shopping] fieldset ul li:first-of-type span:nth-of-type(3),
+    section[class=etcpage_shopping] fieldset ul li:first-of-type span:nth-of-type(4),
+    section[class=etcpage_shopping] fieldset ul li:first-of-type span:last-of-type{
+        display: none;
+    }
+    section[class=etcpage_shopping] fieldset ul li:first-of-type span:nth-of-type(2){
+        width: 73%; display: inline-block;
+    }
+    section[class=etcpage_shopping] fieldset ul li:first-of-type span:nth-of-type(5){
+        width: 25%; display: inline-block;
+    }
+    section[class=etcpage_shopping] fieldset ul li:last-of-type span:first-of-type,
+    section[class=etcpage_shopping] fieldset ul li:last-of-type span:nth-of-type(3),
+    section[class=etcpage_shopping] fieldset ul li:last-of-type span:nth-of-type(4),
+    section[class=etcpage_shopping] fieldset ul li:last-of-type span:last-of-type{
+        display: none;
+    }
+    section[class=etcpage_shopping] fieldset ul li:last-of-type span:nth-of-type(2){
+        width: 73%; display: inline-block; 
+    }
+    section[class=etcpage_shopping] fieldset ul li:last-of-type span:nth-of-type(5){
+        width: 25%; display: inline-block; 
+    }
+    /* section[class=etcpage_shopping] fieldset ul li:last-of-type input[type='number']{
+        width: 55%;
+    }
+    section[class=etcpage_shopping] fieldset ul li:last-of-type button{
+        background-color: #878787; color: #ededed; border: none; text-align: center;
+    } */
+    section[class=etcpage_shopping] input[type='submit']{
+        background-color: #333; color: #ededed; font-size: 16px; font-weight: 300; text-align: center;
+        width: 160px; display: block; margin: 0 auto; padding: 15px 0; box-sizing: border-box; border: none;
+    }
+
+    /* etcpage shopping fin */
+}
+@media screen and (min-width: 768px) and (max-width: 1279px){
+    section[class^=mainpage]{
+        display: block; margin: 0 auto; max-width: 1000px; margin-bottom: 150px;
+    }
+    section[class=mainpage_banner_3]> ul li:nth-of-type(1),
+    section[class=mainpage_banner_3]> ul li:nth-of-type(2){
+        float: left; width: 50%;
+    }
+    section[class^=mainpage_banner_3] > ul li:nth-of-type(1) figure img,
+    section[class^=mainpage_banner_3] > ul li:nth-of-type(2) figure img{
+        width: 100%;
+    }
+    section[class^=mainpage] > figure img,
+    section[class^=mainpage_banner_3] > ul li:last-of-type figure img{
+        width: 100%; 
+    }
+    section[class^=mainpage] > figure img,
+    section[class^=mainpage_banner_3] > ul li figure img{
+        opacity: 0.6;
+    }
+    section[class=mainpage_banner_3]> ul li:last-of-type{
+       content: ''; clear: both; display: block; 
+    }
+    section[class^=mainpage]:not(.mainpage_banner_1) > h2{
+        display: inline-block; font-size: 24px; font-weight: 300; color: #fff; margin-bottom: 20px;
+        border-left: 1px solid yellow; border-right: 1px solid yellow; padding: 0 25px; margin-left: 2%;
+    }
+    section[class^=mainpage]:not(.mainpage_banner_3) > figure,
+    section.mainpage_banner_3 > ul li figure{
+        position: relative;
+    }
+    section[class^=mainpage] figure figcaption{
+        position: absolute; bottom: 0; left: 0; width: 100%; box-sizing: border-box;
+        padding: 50px 4.5%; 
+    }
+    section[class=mainpage_banner_3]> ul li:not(:last-of-type) figure figcaption{
+        padding: 50px 20%;
+    }
+    section[class^=mainpage]:not(.mainpage_banner_3) > figure figcaption a,
+    section.mainpage_banner_3 > ul li figure figcaption a{
+        text-decoration: none;
+    }
+    section[class^=mainpage]:not(.mainpage_banner_3) > figure figcaption a small,
+    section.mainpage_banner_3 > ul li figure figcaption a small{
+        font-size: 12px; color: #fff; font-weight: 300; display: inline-block; margin-bottom: 10px;
+        border-left: 1px solid yellow; border-right: 1px solid yellow; padding: 0 15px; line-height: 12px;
+    }
+    section[class^=mainpage]:not(.mainpage_banner_3) > figure figcaption a h3,
+    section.mainpage_banner_3 > ul li figure figcaption a h3{
+        font-size: 30px; color: #fff; font-weight: 300; margin-bottom: 20px;
+    }
+    section[class^=mainpage]:not(.mainpage_banner_3) > figure figcaption a p,
+    section.mainpage_banner_3 > ul li figure figcaption a p{
+        font-size: 14px; color: #ededed; font-weight: 300;
+    }
+    /* ?mainPage Fin */
+    
+    
+    section[class^=list]{
+        max-width: 1000px; margin: 0 auto; display: block;
+    }
+    section[class^=list] > h2{
+        display: none;
+    }
+    section[class^=list] > ul{
+        padding: 0 3% 0 2%;
+    }
+    section[class^=list] > ul::after{
+        content: ''; clear: both; display: block; 
+    }
+    section[class^=list] > ul li{
+        float: left; width: 31%;  list-style: none;  margin-bottom: 50px; margin-top: 50px;
+    }
+    section[class^=list] > ul li:not(:nth-of-type(3n+1)){
+        margin-left: 3.33%;
+    }
+    section[class^=list] > ul li figure img{
+        width: 100%; margin-bottom: 20px;
+    }
+    section[class^=list] > ul li figure figcaption{
+        position: relative; padding-bottom: 20px; box-sizing: border-box;
+    }
+    section[class^=list] > ul li figure figcaption a{
+        text-decoration: none; display: block;
+    }
+    section[class^=list] > ul li figure figcaption a > *{
+        display: block; font-weight: 300;
+    }
+    section[class^=list] > ul li figure figcaption a span:first-of-type{
+        font-size: 12px; color: #212121; margin-bottom: 20px; font-weight: 500;
+    }
+    section[class^=list] > ul li figure figcaption a span:last-of-type{
+        font-size: 14px; color: #121212; margin-bottom: 15px; font-weight: 300;
+    }
+    section[class^=list] > ul li figure figcaption a small{
+        position: absolute; bottom: 0; font-size: 14px; color: #666; font-weight: 300;
+    }
+    
+    /*list fin */
+    
+    section[class$=Detail]{
+        max-width: 1000px; margin: 60px auto 100px; display: block;
+        padding: 0 2% 0 3%;
+    }
+    section[class$=Detail] > div[class$=purchase]{
+        margin-bottom: 150px;
+    }
+    section[class$=Detail] > div[class$=purchase]::after{
+        content: ''; clear: both; display: block;
+    }
+    section[class$=Detail] > div[class$=purchase] > img{
+        width: 54%; float: left; max-width: 720px;
+    }
+    section[class$=Detail] > div[class$=purchase] div{
+        width: 40%; float: left; margin-left: 6%;
+    }
+    section[class$=Detail] > div[class$=purchase] div > span{
+        font-size: 16px; font-weight: 300; color: #787878; display: block;
+        position: relative;
+    }
+    section[class$=Detail] > div[class$=purchase] div span small{
+        font-size: 12px; font-weight: 300; color: #212121;
+        margin-left: 60%; position: absolute; right: 0;
+    }
+    section[class$=Detail] > div[class$=purchase] small{
+        font-size: 12px; font-weight: 300; color: #212121;
+        margin-left: 83%;
+    }
+    section[class$=Detail] > div[class$=purchase] div fieldset{
+        margin-bottom: 50px;
+    }
+    section[class$=Detail] > div[class$=purchase] div fieldset ul li{
+        list-style: none; border-bottom: 1px solid #dedede; box-sizing: border-box; 
+        margin-top: 50px; padding-bottom: 30px; display: block; line-height: 30px;
+    }
+    section[class$=Detail] > div[class$=purchase] div fieldset ul li::after{
+        content: ''; clear: both; display: block;
+    }
+    section[class$=Detail] > div[class$=purchase] div fieldset ul li :first-child{
+        float: left;  width: 29%; 
+        font-size: 16px; font-weight: 300; color: #121212; 
+    }
+    section[class$=Detail] > div[class$=purchase] div fieldset ul li:not(:nth-of-type(4)) :last-child{
+         float: left; text-align: right; width: 69%; 
+    }
+    section[class$=Detail] > div[class$=purchase] div fieldset ul li:nth-of-type(1) input,
+    section[class$=Detail] > div[class$=purchase] div fieldset ul li:nth-of-type(2) input,
+    section[class$=Detail] > div[class$=purchase] div fieldset ul li:nth-of-type(4) input{
+        border: none;
+    }
+    section[class$=Detail] > div[class$=purchase] div fieldset ul li:nth-of-type(1) :last-child{
+        font-size: 12px; font-weight: 300; color: #121212;
+    }
+    section[class$=Detail] > div[class$=purchase] div fieldset ul li:nth-of-type(2) :last-child,
+    section[class$=Detail] > div[class$=purchase] div fieldset ul li:nth-of-type(4) :last-child{
+        font-size: 16px; font-weight: 300; color: #121212;
+    }
+    section[class$=Detail] > div[class$=purchase] div fieldset ul li:nth-of-type(3) :last-child{
+        font-size: 12px; border: 1px solid #dedede; padding: 10px;  
+    }
+    section[class$=Detail] > div[class$=purchase] div fieldset ul li:nth-of-type(4) :nth-child(2),
+    section[class$=Detail] > div[class$=purchase] div fieldset ul li:nth-of-type(4) :last-child{
+        float: left; text-align: right;  font-weight: 300; color: #121212;
+    }
+    section[class$=Detail] > div[class$=purchase] div fieldset ul li:nth-of-type(4) :nth-child(2){
+        font-size: 24px; width: 65%;
+    }
+    section[class$=Detail] > div[class$=purchase] div fieldset ul li:nth-of-type(4) :last-child{
+        font-size: 16px; width: 3%;
+    }
+    section[class$=Detail] > div[class$=purchase] div input[type='submit']{
+        border: 1px solid black; line-height: 50px; width: 30%; display: inline-block; box-sizing: border-box; 
+        background-color: black; color: #dedede; font-size: 14px; font-weight: 300; margin-right: 30%;
+    }
+    section[class$=Detail] > div[class$=purchase] div a{
+        text-decoration: none; font-size: 14px; font-weight: 300; box-sizing: border-box;
+        border: 1px solid #dedede; background-color: white; color: #121212; 
+        display: block; width: 40%; line-height: 52px; text-align: center; float: right;
+    }
+    
+    /* purchase class fin */
+    
+    section[class^=basetech] > figure[class$=explanation] img,
+    section[class^=bottom] > figure[class$=explanation] img,
+    section[class^=long_top] > figure[class$=explanation] img,
+    section[class^=outer] > figure[class$=explanation] img,
+    section[class^=performance] > figure[class$=explanation] img,
+    section[class^=short_top] > figure[class$=explanation] img,
+    section[class^=swim] > figure[class$=explanation] img,
+    section[class^=xwide] > figure[class$=explanation] img{
+        /* max-width: 1200px; */
+        width: 100%;
+    }
+    section[class^=basicwide] > figure[class$=explanation] img,
+    section[class^=coolmash] > figure[class$=explanation] img{
+        /* max-width: 818px;  */
+        width: 100%;
+    }
+    section[class$=Detail] > figure[class$=explanation] img{
+        width: 100%; margin: 0 auto 150px; display: block;
+    }
+    section[class$=Detail] > figure[class$=explanation] figcaption{
+        padding-left: 5%; padding-right: 5%; box-sizing: border-box;
+    }
+    section[class$=Detail] > figure[class$=explanation] figcaption h3{
+        font-size: 41px; font-weight: 500; color: #121212; margin-bottom: 45px;
+    }
+    section[class$=Detail] > figure[class$=explanation] figcaption p{
+        font-size: 24px; font-weight: 300; color: #121212; margin-bottom: 50px;
+        line-height: 30px;
+    }
+    
+    /* explanation class fin */
+
+    section[class$=Detail] > ul[class$=info]{
+        width: 100%; margin-bottom: 150px;
+    }
+    section[class$=Detail] > ul[class$=info]::after{
+        content: ''; clear: both; display: block;
+    }
+    section[class$=Detail] > ul[class$=info] > li{
+        list-style: none; float: left; width: 45%; margin-bottom: 4%; padding-bottom: 50px;
+        background-repeat: no-repeat; background-size: 157px 117px; background-position: center;
+        background-color: #f9f9f9;
+    }
+    section[class$=Detail] > ul[class$=info] > li:nth-child(even){
+        margin-left: 8%;
+    }
+    section[class$=Detail] > ul[class$=info] > li:nth-of-type(1){
+        background-image: url('../images/distinct_1.jpg');
+    } 
+    section[class$=Detail] > ul[class$=info] > li:nth-of-type(2){
+        background-image: url('../images/distinct_2.jpg');
+    }
+    section[class$=Detail] > ul[class$=info] > li:nth-of-type(3){
+        background-image: url('../images/distinct_3.jpg');
+    }
+    section[class$=Detail] > ul[class$=info] > li:nth-of-type(4){
+        background-image: url('../images/distinct_4.jpg');
+    }
+    section[class$=Detail] > ul[class^=detail_fabric] > li h3,
+    section[class$=Detail] > ul[class^=detail_fabric] > li p{
+        text-align: center;
+    }
+    section[class$=Detail] > ul[class$=info] > li h3{
+        font-size: 24px; font-weight: 500; color: #121212; padding-top: 350px; margin-bottom: 20px; 
+        text-align: center;
+    }
+    section[class$=Detail] > ul[class$=info] > li p{
+        font-size: 20px; font-weight: 300; color: #121212; line-height: 30px; text-align: center;
+        padding: 0 3%;
+    }
+    section[class$=Detail] > ul[class$=info_2]{
+        margin-bottom: 150px;
+    }
+    section[class$=Detail] > ul[class$=info_2]::after{
+        content: ''; clear: both; display: block;
+    }
+    section[class$=Detail] > ul[class$=info_2] > li{
+        list-style: none; float: left; width: 30%; margin-bottom: 2%;  
+        background-repeat: no-repeat; background-position: center top;
+        background-size: 113px 104px; padding-bottom: 30px;
+    }
+    section[class$=Detail] > ul[class$=info_2] > li:nth-of-type(2),
+    section[class$=Detail] > ul[class$=info_2] > li:nth-of-type(3),
+    section[class$=Detail] > ul[class$=info_2] > li:nth-of-type(5){
+        margin-left: 4%;
+    }
+    section[class$=Detail] > ul[class$=info_2] > li:nth-of-type(4){
+        margin-left: 16%;
+    }
+    section[class$=Detail] > ul[class$=info_2] > li:nth-of-type(1){
+        background-image: url('../images/distinct_5.png');
+    }
+    section[class$=Detail] > ul[class$=info_2] > li:nth-of-type(2){
+        background-image: url('../images/distinct_6.png');
+    }
+    section[class$=Detail] > ul[class$=info_2] > li:nth-of-type(3){
+        background-image: url('../images/distinct_7.png');
+    }
+    section[class$=Detail] > ul[class$=info_2] > li:nth-of-type(4){
+        background-image: url('../images/distinct_8.png');
+    }
+    section[class$=Detail] > ul[class$=info_2] > li:nth-of-type(5){
+        background-image: url('../images/distinct_9.png');
+    }
+    section[class$=Detail] > ul[class$=info_2] > li h3{
+        font-size: 24px; font-weight: 500; color: #121212; padding-top: 130px; margin-bottom: 20px;
+    }
+    section[class$=Detail] > ul[class$=info_2] > li p{
+        font-size: 16px; font-weight: 300; color: #121212; line-height: 20px; 
+    }
+    section[class$=Detail] > ul[class$=info_3]{
+        width: 95%; margin-bottom: 150px;
+    }
+    section[class$=Detail] > ul[class$=info_3]::after{
+        content: ''; clear: both; display: block;
+    }
+    section[class$=Detail] > ul[class$=info_3] > li{
+        list-style: none; float: left; width: 30%; margin-bottom: 30px;
+        background-repeat: no-repeat; background-size: 124px 108px; background-position: center top;
+    }
+    section[class$=Detail] > ul[class$=info_3] > li:nth-of-type(2),
+    section[class$=Detail] > ul[class$=info_3] > li:nth-of-type(3),
+    section[class$=Detail] > ul[class$=info_3] > li:nth-of-type(5),
+    section[class$=Detail] > ul[class$=info_3] > li:nth-of-type(6){
+        margin-left: 5%;
+    }
+    section[class$=Detail] > ul[class$=info_3] > li:nth-of-type(1){
+        background-image: url('../images/distinct_10.jpg');
+    }
+    section[class$=Detail] > ul[class$=info_3] > li:nth-of-type(2){
+        background-image: url('../images/distinct_11.jpg');
+    }
+    section[class$=Detail] > ul[class$=info_3] > li:nth-of-type(3){
+        background-image: url('../images/distinct_12.jpg');
+    }
+    section[class$=Detail] > ul[class$=info_3] > li:nth-of-type(4){
+        background-image: url('../images/distinct_13.jpg');
+    }
+    section[class$=Detail] > ul[class$=info_3] > li:nth-of-type(5){
+        background-image: url('../images/distinct_14.jpg');
+    }
+    section[class$=Detail] > ul[class$=info_3] > li:nth-of-type(6){
+        background-image: url('../images/distinct_15.jpg');
+    }
+    section[class$=Detail] > ul[class$=info_3] > li h3{
+        font-size: 24px; font-weight: 500; color: #121212; margin-bottom: 20px; padding-top: 120px;
+    }
+    section[class$=Detail] > ul[class$=info_3] > li p{
+        font-size: 16px; font-weight: 300; color: #121212; line-height: 20px;
+    }
+    
+    /* fabric_info class fin */
+
+    section[class$=Detail] > div[class$=designpoint] figure{
+        margin-bottom: 150px;
+    }
+    section[class^=long_top_doublelayer] > div[class$=designpoint] figure img,
+    section[class^=long_top_emblem] > div[class$=designpoint] figure img,
+    section[class^=long_top_liver] > div[class$=designpoint] figure img,
+    section[class^=long_top_trakking] > div[class$=designpoint] figure img,
+    section[class^=outer_hood] > div[class$=designpoint] figure img,
+    section[class^=outer_track] > div[class$=designpoint] figure img{
+        /* max-width: 606px; */
+        width: 100%;
+    }
+    section[class^=swim] > div[class$=designpoint] figure img{
+        /* max-width: 723px; */
+        width: 100%;
+    }
+    section[class^=basicwide] > div[class$=designpoint] figure img,
+    section[class^=coolmash] > div[class$=designpoint] figure img,
+    section[class^=short_top_trainer] > div[class$=designpoint] figure img,
+    section[class^=short_top_protective] > div[class$=designpoint] figure img{
+        /* max-width: 884px; */
+        width: 100%;
+    }
+    section[class^=bottom_3inch] > div[class$=designpoint] figure img,
+    section[class^=bottom_multiple] > div[class$=designpoint] figure img,
+    section[class^=bottom_power] > div[class$=designpoint] figure img,
+    section[class^=long_top_dayoff] > div[class$=designpoint] figure img,
+    section[class^=outer_wind] > div[class$=designpoint] figure img,
+    section[class^=performance] > div[class$=designpoint] figure img,
+    section[class^=short_top_tripplex] > div[class$=designpoint] figure img,
+    section[class^=short_top_player] > div[class$=designpoint] figure img,
+    section[class^=xwide] > div[class$=designpoint] figure img{
+        /* max-width: 908px; */
+        width: 100%;
+    }
+    section[class^=basetech] > div[class$=designpoint] figure img
+    section[class^=bottom_compression] > div[class$=designpoint] figure img{
+        /* max-width: 1094px; */
+        width: 100%;
+    }
+    section[class$=Detail] > div[class$=designpoint] figure img{
+        width: 100%; margin: 0 auto; display: block;
+    }
+    section[class$=Detail] > div[class$=designpoint] figure figcaption{
+        margin-bottom: 30px;
+    }
+    section[class$=Detail] > div[class$=designpoint] figure figcaption h3{
+        font-size: 41px; font-weight: 300; color: #787878; margin-bottom: 30px;
+    }
+    section[class$=Detail] > div[class$=designpoint] figure figcaption p{
+        line-height: 40px;
+    }
+    section[class$=Detail] > div[class$=designpoint] figure figcaption p:nth-of-type(1){
+        font-weight: 500; color: #121212; margin-bottom: 30px; font-size: 30px;
+    }
+    section[class$=Detail] > div[class$=designpoint] figure figcaption p:nth-of-type(2){
+        font-weight: 300; color: #212121; font-size: 24px;
+    }
+    
+    /* designpoint class fin */
+    
+    section[class$=Detail] > div[class$=background] img{
+        width: 100%; margin: 0 auto 150px; max-width: 1200px;
+        display: block;
+    }
+    
+    /* background class fin */
+    
+    section[class$=Detail] > div[class$=back] img{
+        width: 100%; margin: 0 auto 150px; display: block; max-width: 800px; 
+    }
+    
+    /* front_and_back class fin */
+    
+    section[class$=Detail] > div[class$=laundry]{
+        margin-bottom: 150px;
+    }
+    section[class$=Detail] > div[class$=laundry] > h3{
+        text-align: center; font-size: 41px; font-weight: 500; color: #121212;
+        margin-bottom: 60px;
+    }
+    section[class$=Detail] > div[class$=laundry] > h3 small{
+        text-align: center; font-size: 24px; font-weight: 300; color: #121212;
+        display: block; margin-top: 30px; 
+    }
+    section[class$=Detail] > div[class$=laundry] ul::after{
+        content: ''; clear: both; display: block;
+    }
+    section[class$=Detail] > div[class$=laundry] ul li{
+        list-style: none; float: left; width: 46%; padding: 17px 0; margin-bottom: 8%;
+        background-size: 71px 71px; background-repeat: no-repeat; background-position: left center;
+    }
+    section[class$=Detail] > div[class$=laundry] ul li:nth-child(even){
+        margin-left: 8%;
+    }
+    section[class$=Detail] > div[class$=laundry] ul li:nth-of-type(1){
+        background-image: url('../images/wash_warning_1.gif');
+    }
+    section[class$=Detail] > div[class$=laundry] ul li:nth-of-type(2){
+        background-image: url('../images/wash_warning_2.png');
+    }
+    section[class$=Detail] > div[class$=laundry] ul li:nth-of-type(3){
+        background-image: url('../images/wash_warning_3.gif');
+    }
+    section[class$=Detail] > div[class$=laundry] ul li:nth-of-type(4){
+        background-image: url('../images/wash_warning_4.gif');
+    }
+    section[class$=Detail] > div[class$=laundry] ul li:nth-of-type(5){
+        background-image: url('../images/wash_warning_5.gif');
+    }
+    section[class$=Detail] > div[class$=laundry] ul li:nth-of-type(6){
+        background-image: url('../images/wash_warning_6.gif');
+    }
+    section[class$=Detail] > div[class$=laundry] ul li:nth-of-type(7){
+        background-image: url('../images/wash_warning_7.gif');
+    }
+    section[class$=Detail] > div[class$=laundry] ul li:nth-of-type(8){
+        background-image: url('../images/wash_warning_8.gif');
+    }
+    section[class$=Detail] > div[class$=laundry] ul li h3{
+        font-size: 24px; font-weight: 500; color: #121212; padding-left: 25%; margin-bottom: 20px;
+    }
+    section[class$=Detail] > div[class$=laundry] ul li p{
+        font-size: 14px; font-weight: 300; color: #121212; padding-left: 25%; line-height: 20px;
+    }
+    section[class$=Detail] > div[class$=laundry] > p{
+        font-size: 16px; font-weight: 300; color: #121212; text-align: center;
+    }
+    
+    /* laundry class fin */
+    
+    section[class$=Detail] > div[class$=size]{
+        margin: 0 auto 150px; display: block;
+    }
+    section[class$=Detail] > div[class$=size] > h3{
+        font-size: 41px; font-weight: 300; color: #787878; margin-bottom: 60px;
+    }
+    section[class$=Detail] > div[class$=size] img{
+        width: 100%; margin: 0 auto 30px; max-width: 450px; display: block;
+    }
+    section[class$=Detail] > div[class$=size] table{
+        border: 1px solid #e8e8e8; margin: 0 auto; width: 70%; display: table;
+    }
+    section[class$=Detail] > div[class$=size] table caption{
+        display: none;
+    }
+    section[class$=Detail] > div[class$=size] table thead{
+        font-size: 16px; font-weight: 500; color: #121212;
+    }
+    section[class$=Detail] > div[class$=size] table tbody{
+        font-size: 14px; font-weight: 300; color: #121212;
+    }
+    section[class$=Detail] > div[class$=size] table thead th,
+    section[class$=Detail] > div[class$=size] table tbody th,
+    section[class$=Detail] > div[class$=size] table tbody td{
+        border: 1px solid #e8e8e8; padding: 20px; text-align: center; 
+    }
+    section[class$=Detail] > div[class$=size] table thead th,
+    section[class$=Detail] > div[class$=size] table tbody th{
+        background-color: #f7f7f7;
+    }
+    
+    /* clothes size class fin */
+    
+    section[class$=Detail] > div[class^=delivery]{
+        margin-bottom: 30px;
+    }
+    section[class$=Detail] > div[class^=delivery] h3{
+        font-size: 30px; font-weight: 500; color: #121212; margin-bottom: 30px;
+    }
+    section[class$=Detail] > div[class^=delivery] table{
+        border: 1px solid #e8e8e8; text-align: center; display: table; width: 100%;
+    }
+    section[class$=Detail] > div[class^=delivery] table caption{
+        font-size: 24px; font-weight: 500; color: #121212; text-align: left; margin-bottom: 30px;
+    }
+    /* section[class$=Detail] > div[class^=delivery] table colgroup col:first-of-type{
+        width: 25%;
+    }
+    section[class$=Detail] > div[class^=delivery] table colgroup col:last-of-type{
+        width: 75%;
+    } */
+    section[class$=Detail] > div[class^=delivery] table tbody th,
+    section[class$=Detail] > div[class^=delivery] table tbody td{
+        border: 1px solid #e8e8e8;
+    }
+    section[class$=Detail] > div[class^=delivery] table tbody th{
+        padding: 30px 50px; text-align: center; background-color: #f7f7f7;
+        vertical-align: middle; font-size: 16px; font-weight: 500; color: #121212;
+        width: 25%; box-sizing: border-box;
+    }
+    section[class$=Detail] > div[class^=delivery] table tbody td:first-of-type,
+    section[class$=Detail] > div[class^=delivery] table tbody td:nth-of-type(2){
+        text-align: center; vertical-align: middle;
+    }
+    section[class$=Detail] > div[class^=delivery] table tbody td:nth-of-type(3),
+    section[class$=Detail] > div[class^=delivery] table tbody td:nth-of-type(4),
+    section[class$=Detail] > div[class^=delivery] table tbody td:last-of-type{
+        text-align: left; 
+    }
+    section[class$=Detail] > div[class^=delivery] table tbody td{
+        padding: 2%; font-size: 14px; font-weight: 300; color: #121212; line-height: 30px;
+        width: 75%; box-sizing: border-box;
+    }
+    section[class$=Detail] > div[class^=delivery] table tbody tr:nth-of-type(3) td,
+    section[class$=Detail] > div[class^=delivery] table tbody tr:last-of-type td{
+        padding-bottom: 30px;
+    }
+    
+    /* delivery class fin */
+    
+    section[class$=Detail] > div[class^=exchange]{
+        margin-bottom: 20px;
+    }
+    section[class$=Detail] > div[class^=exchange] p{
+        font-size: 24px; font-weight: 500; color: #121212; margin-bottom: 30px;
+    }
+    section[class$=Detail] > div[class^=exchange] table{
+        border: 1px solid #e8e8e8; text-align: center; display: table; width: 100%;
+    }
+    section[class$=Detail] > div[class^=exchange] table caption{
+        display: none;
+    }
+    /* section[class$=Detail] > div[class^=exchange] table colgroup col:first-of-type{
+        width: 25%;
+    }
+    section[class$=Detail] > div[class^=exchange] table colgroup col:last-of-type{
+        width: 75%;
+    } */
+    section[class$=Detail] > div[class^=exchange] table tbody th,
+    section[class$=Detail] > div[class^=exchange] table tbody td{
+        border: 1px solid #e8e8e8;
+    }
+    section[class$=Detail] > div[class^=exchange] table tbody th{
+        text-align: center; background-color: #f7f7f7; vertical-align: middle;
+        padding: 30px; font-size: 16px; font-weight: 500; color: #121212; line-height: 30px;
+        width: 25%; box-sizing: border-box;
+    }
+    section[class$=Detail] > div[class^=exchange] table tbody td{
+        text-align: left; padding: 2%; font-size: 14px; font-weight: 300; color: #121212;
+        line-height: 30px; width: 75%; box-sizing: border-box;
+    }
+    
+    /* exchange class fin */
+
+    section[class$=Detail] > a{
+        display: block; text-decoration: none; border: 1px solid black; color: #787878; 
+        padding: 10px; font-size: 14px; color: #121212; width: 100px; float: right; text-align: center;
+    }
+
+    /* Detail page fin */
+
+    section[class=etcpage_login]{
+        max-width: 460px; margin: 150px auto 300px; display: block;  padding: 0 3% 0 2%;
+    }
+    section[class=etcpage_login] h2{
+        font-size: 30px; font-weight: 500; color: #121212; margin-bottom: 50px;
+    }
+    section[class=etcpage_login] fieldset legend{
+        font-size: 24px; font-weight: 300; color: #121212; margin-bottom: 20px;
+    }
+    section[class=etcpage_login] input[type='text'],
+    section[class=etcpage_login] input[type='password']{
+        display: block; border: 1px solid #bababa; font-size: 16px; font-weight: 300; color: #bababa;
+        padding: 20px 0 20px 2%; width: 100%;
+    }
+    section[class=etcpage_login] input[type='password']{
+        border-top: none; margin-bottom: 20px;
+    }
+    section[class=etcpage_login] fieldset label{
+        font-size: 12px; font-weight: 300; color: #121212; vertical-align: middle;
+    } 
+    section[class=etcpage_login] input[type='submit']{
+        margin-top: 20px; border-radius: 10px; background-color: black; font-size: 16px; font-weight: 300; color: #ededed;
+        padding-top: 15px; padding-bottom: 15px; margin-bottom: 30px; box-sizing: border-box; width: 100%; border: none; text-align: center;
+    }
+    section[class=etcpage_login] div{
+        position: relative; width: 100%
+    }
+    section[class=etcpage_login] div a{
+        text-decoration: none; font-size: 14px; font-weight: 300; color: #121212;
+        display: inline-block;       
+    }
+    section[class=etcpage_login] div a:last-of-type{
+        position: absolute; right: 0;
+    }
+
+    /* etcpage login fin */
+
+    section[class=etcpage_join]{
+        max-width: 600px; margin: 80px auto; display: block;  padding: 0 3% 0 2%;
+    }
+    section[class=etcpage_join] h2{
+        font-size: 30px; font-weight: 500; color: #121212; margin-bottom: 50px; text-align: center;
+    }
+    section[class=etcpage_join] fieldset{
+        border: 1px solid #ccc; margin-bottom: 50px;
+    }
+    section[class=etcpage_join] fieldset legend{
+        display: none;
+    }
+    section[class=etcpage_join] fieldset ul{
+        padding: 60px 10%; list-style: none;
+    }
+    section[class=etcpage_join] fieldset ul li:not(:last-of-type){
+        margin-bottom: 50px; display: block;
+    }
+    section[class=etcpage_join] fieldset ul li label{
+        font-size: 14px; font-weight: 300; color: #121212; 
+    }
+    section[class=etcpage_join] fieldset ul li input{
+        display: block; margin-top: 20px; border: none; border-bottom: 1px solid #ccc;
+        font-size: 14px; font-weight: 300; color: #ccc; line-height: 30px; width: 100%;
+    }
+    section[class=etcpage_join] fieldset div{
+        padding-left: 11%; margin-bottom: 60px;
+    }
+    section[class=etcpage_join] fieldset div input[type='radio']{
+        border: 1px solid #ccc;
+    }
+    section[class=etcpage_join] fieldset div input[type='radio']:not(:first-of-type){
+        margin-left: 50px;
+    }
+    section[class=etcpage_join] fieldset div label{
+        vertical-align: middle; font-size: 14px; font-weight: 300; color: #121212;
+    }
+    section[class=etcpage_join] input[type='submit']{
+        font-size: 16px; font-weight: 300; color: #ededed; background-color: black; border: none;
+        border-radius: 5px; padding: 2%; display: block; margin: 0 auto; width: 100px;
+    }
+
+    /* etcpage join fin */
+
+    section[class$=service]{
+        max-width: 1000px; margin: 80px auto; display: block; padding: 0 3% 0 2%;
+    }
+    section[class$=service] h2{
+        font-size: 41px; font-weight: 300; color: #121212; margin-bottom: 60px;
+    }
+    section[class=etcpage_terms_of_service] p{
+        font-size: 14px; font-weight: 300; color: #333; margin-bottom: 60px;
+    }
+    section[class$=service] ul{
+        list-style: none;
+    }
+    section[class$=service] ul li:not(:last-of-type){
+        margin-bottom: 120px; border-bottom: 1px solid #dedede; 
+    }
+    section[class$=service] ul li h3{
+        font-size: 30px; font-weight: 300; color: #121212; margin-bottom: 30px;
+    }
+    section[class$=service] ul li p{
+        font-size: 14px; font-weight: 300; color: #333; margin-bottom: 30px; line-height: 25px;
+    }
+
+    /* etcpage service fin */
+
+    section[class=etcpage_notice_detail]{
+        max-width: 1000px; margin: 120px auto 80px; display: block;
+        padding: 0 3% 0 2%;
+    }
+    section[class=etcpage_notice_detail] h2{
+        font-size: 30px; font-weight: 500; color: #121212; margin-bottom: 60px;
+    }
+    section[class=etcpage_notice_detail] h2 small{
+        font-size: 16px; font-weight: 300; color: #454545; margin-top: 20px; display: block;        
+    }
+    section[class=etcpage_notice_detail] > div{
+        margin-bottom: 50px;
+    }
+    section[class=etcpage_notice_detail] > div p{
+        font-size: 16px; font-weight: 300; 
+    }
+    section[class=etcpage_notice_detail] > div p:first-of-type{
+        color: #454545; margin-bottom: 50px;
+    }
+    section[class=etcpage_notice_detail] > div p:not(:first-of-type){
+        color: #121212; margin-bottom: 30px;
+    }
+    section[class=etcpage_notice_detail] ul{
+        list-style: none; margin-bottom: 20px; border-bottom: 1px solid #bababa;
+    }
+    section[class=etcpage_notice_detail] li:not(:last-of-type){
+        margin-bottom: 50px;
+    }
+    section[class=etcpage_notice_detail] ul li mark{
+        font-size: 14px; font-weight: 300; color: #ededed; background-color: black; margin-bottom: 30px;
+        padding: 15px 2%; text-align: center; box-sizing: border-box; display: inline-block; 
+    }
+    section[class=etcpage_notice_detail] ul li p{
+        font-size: 14px; font-weight: 300; line-height: 20px;
+    }
+    section[class=etcpage_notice_detail] ul li:first-of-type p:first-of-type,
+    section[class=etcpage_notice_detail] ul li:nth-of-type(2) p:first-of-type{
+        margin-bottom: 30px;
+    }
+    section[class=etcpage_notice_detail] ul li:first-of-type p:first-of-type,
+    section[class=etcpage_notice_detail] ul li:nth-of-type(2) p:first-of-type,
+    section[class=etcpage_notice_detail] ul li:first-of-type p:nth-of-type(2),
+    section[class=etcpage_notice_detail] ul li:nth-of-type(2) p:nth-of-type(2),
+    section[class=etcpage_notice_detail] ul li:last-of-type p{
+        color: #121212;
+    }
+    section[class=etcpage_notice_detail] ul li:first-of-type p:last-of-type,
+    section[class=etcpage_notice_detail] ul li:nth-of-type(2) p:last-of-type{
+        color: #bababa;
+    }
+    section[class=etcpage_notice_detail] ul li address{
+        border: 1px solid #bababa; font-size: 14px; font-weight: 300; color: #121212;
+        display: block; width: 480px; text-align: center; padding: 10px 0; box-sizing: border-box;
+        margin-bottom: 30px;
+    }
+    section[class=etcpage_notice_detail] div:nth-of-type(2)::after{
+        content: ''; clear: both; display: block; 
+    }
+    section[class=etcpage_notice_detail] div:nth-of-type(2) a{
+        background-color: black; font-size: 16px; font-weight: 500; color: #ededed;
+        text-decoration: none; text-align: center; padding: 10px 0; width: 100px; display: block;
+        float: right; box-sizing: border-box;
+    }
+
+    /* etcpage notice_detail fin */
+
+    section[class=etcpage_notice]{
+        max-width: 1000px; margin: 170px auto 380px; display: block;
+        padding: 0 3% 0 2%;
+    }
+    section[class=etcpage_notice] h2{
+        background-color: black; font-size: 24px; font-weight: 300; color: #ededed; text-align: center;
+        padding: 15px 0; box-sizing: border-box; margin-bottom: 25px;
+    }
+    section[class=etcpage_notice] ul{
+        list-style: none; 
+    }
+    section[class=etcpage_notice] form fieldset{
+        float: right; margin-bottom: 30px; width: 47%; display: block;
+    }
+    [class=etcpage_notice] ul li:first-of-type::after{
+        content: ''; clear: both; display: block;
+    }
+    section[class=etcpage_notice] form fieldset label{
+        font-size: 14px; font-weight: 300; color: #454545; vertical-align: middle;
+    }
+    [class=etcpage_notice] ul li:first-of-type{
+        border-top: 1px solid #bababa; line-height: 50px;
+    }
+    [class=etcpage_notice] ul li:first-of-type,
+    section[class=etcpage_notice] ul li:last-of-type{
+        float: left; display: block; width: 100%; border-bottom: 1px solid #bababa;
+        line-height: 50px;
+    }
+    [class=etcpage_notice] ul li:first-of-type span,
+    section[class=etcpage_notice] ul li:last-of-type span{
+        font-size: 14px; color: #121212; text-align: center;
+    }
+    section[class=etcpage_notice] ul li:last-of-type span:not(:nth-of-type(2)){
+        font-weight: 300;
+    }
+    section[class=etcpage_notice] ul li:last-of-type span:nth-of-type(2){
+        font-weight: 500;
+    }
+    [class=etcpage_notice] ul li:first-of-type span:not(:nth-of-type(2)){
+        width: 14%; display: inline-block;
+    } 
+    [class=etcpage_notice] ul li:first-of-type span:nth-of-type(2){
+        width: 42%; display: inline-block;
+    }
+    section[class=etcpage_notice] ul li:last-of-type span:not(:nth-of-type(2)){
+        width: 14%; display: inline-block;
+    }
+    section[class=etcpage_notice] ul li:last-of-type span:nth-of-type(2){
+        width: 42%; display: inline-block;
+    }
+
+    /* etcpage notice fin */
+
+    section[class=etcpage_shopping]{
+        max-width: 1000px; margin: 80px auto 300px; display: block;
+        padding: 0 3% 0 2%;
+    }
+    section[class=etcpage_shopping] h2{
+        display: none;
+    }
+    section[class=etcpage_shopping] fieldset{
+        margin-bottom: 70px;
+    }
+    section[class=etcpage_shopping] fieldset legend{
+        font-size: 41px; font-weight: 500; color: #121212; margin-bottom: 60px;
+    }
+    section[class=etcpage_shopping] fieldset ul{
+        list-style: none; 
+    }
+    section[class=etcpage_shopping] fieldset ul li input[type='checkbox']{
+        display: none;
+    }
+    section[class=etcpage_shopping] fieldset ul li:first-of-type{
+        border-top: 1px solid #bababa; border-bottom: 1px solid #bababa; line-height: 50px;
+        width: 100%;
+    }
+    section[class=etcpage_shopping] fieldset ul li:last-of-type{
+        border-bottom: 1px solid #bababa; line-height: 50px; width: 100%;
+    }
+    section[class=etcpage_shopping] fieldset ul li span{
+        text-align: center; font-size: 16px; font-weight: 300; color: #121212;
+    }
+    section[class=etcpage_shopping] fieldset ul li:first-of-type span:not(:nth-of-type(2)){
+        width: 9%; display: inline-block;
+    }
+    section[class=etcpage_shopping] fieldset ul li:first-of-type span:nth-of-type(2){
+        width: 48%; display: inline-block;
+    }
+    section[class=etcpage_shopping] fieldset ul li:last-of-type span:not(:nth-of-type(2)){
+        width: 9%; display: inline-block;
+    }
+    section[class=etcpage_shopping] fieldset ul li:last-of-type span:nth-of-type(2){
+        width: 48%; display: inline-block;
+    }
+    section[class=etcpage_shopping] fieldset ul li:last-of-type input[type='number']{
+        width: 30%; text-align: center; line-height: 24px;
+    }
+    section[class=etcpage_shopping] fieldset ul li:last-of-type button{
+        background-color: #878787; color: #ededed; border: none; text-align: center;
+        line-height: 24px; padding: 0 10px; font-size: 12px; border-radius: 4px;
+    }
+    section[class=etcpage_shopping] input[type='submit']{
+        background-color: #333; color: #ededed; font-size: 16px; font-weight: 300; text-align: center;
+        width: 160px; display: block; margin: 0 auto; padding: 15px 0; box-sizing: border-box; border: none;
+    }
+
+    /* etcpage shopping fin */
+}
+@media screen and (min-width: 1280px){
+    section[class^=mainpage]{
+        display: block; margin: 0 auto; max-width: 1350px; margin-bottom: 150px;
+    }
+    section[class=mainpage_banner_3]> ul li:nth-of-type(1),
+    section[class=mainpage_banner_3]> ul li:nth-of-type(2){
+        float: left; width: 50%;
+    }
+    section[class^=mainpage_banner_3] > ul li:nth-of-type(1) figure img,
+    section[class^=mainpage_banner_3] > ul li:nth-of-type(2) figure img{
+        width: 100%;
+    }
+    section[class^=mainpage] > figure img,
+    section[class^=mainpage_banner_3] > ul li:last-of-type figure img{
+        width: 100%; 
+    }
+    section[class^=mainpage] > figure img,
+    section[class^=mainpage_banner_3] > ul li figure img{
+        opacity: 0.6;
+    }
+    section[class=mainpage_banner_3]> ul li:last-of-type{
+       content: ''; clear: both; display: block; 
+    }
+    section[class^=mainpage]:not(.mainpage_banner_1) > h2{
+        display: inline-block; font-size: 30px; font-weight: 300; color: #fff; margin-bottom: 20px;
+        border-left: 1px solid yellow; border-right: 1px solid yellow; padding: 0 25px;
+    }
+    section[class^=mainpage]:not(.mainpage_banner_3) > figure,
+    section.mainpage_banner_3 > ul li figure{
+        position: relative;
+    }
+    section[class^=mainpage] figure figcaption{
+        position: absolute; bottom: 0; left: 0; width: 100%; box-sizing: border-box;
+        padding: 50px 4.5%; 
+    }
+    section[class=mainpage_banner_3]> ul li:not(:last-of-type) figure figcaption{
+        padding: 50px 20%;
+    }
+    section[class^=mainpage]:not(.mainpage_banner_3) > figure figcaption a,
+    section.mainpage_banner_3 > ul li figure figcaption a{
+        text-decoration: none;
+    }
+    section[class^=mainpage]:not(.mainpage_banner_3) > figure figcaption a small,
+    section.mainpage_banner_3 > ul li figure figcaption a small{
+        font-size: 14px; color: #fff; font-weight: 300; display: inline-block; margin-bottom: 10px;
+        border-left: 1px solid yellow; border-right: 1px solid yellow; padding: 0 15px; line-height: 12px;
+    }
+    section[class^=mainpage]:not(.mainpage_banner_3) > figure figcaption a h3,
+    section.mainpage_banner_3 > ul li figure figcaption a h3{
+        font-size: 41px; color: #fff; font-weight: 300; margin-bottom: 20px;
+    }
+    section[class^=mainpage]:not(.mainpage_banner_3) > figure figcaption a p,
+    section.mainpage_banner_3 > ul li figure figcaption a p{
+        font-size: 16px; color: #ededed; font-weight: 300;
+    }
+    /* ?mainPage Fin */
+    
+    
+    section[class^=list]{
+        max-width: 1350px; margin: 0 auto; display: block;
+    }
+    section[class^=list] > h2{
+        display: none;
+    }
+    section[class^=list] > ul::after{
+        content: ''; clear: both; display: block; 
+    }
+    section[class^=list] > ul li{
+        float: left; width: 31%;  list-style: none;  margin-bottom: 50px; margin-top: 50px;
+    }
+    section[class^=list] > ul li:not(:nth-of-type(3n+1)){
+        margin-left: 3.33%;
+    }
+    section[class^=list] > ul li figure img{
+        width: 100%; margin-bottom: 20px;
+    }
+    section[class^=list] > ul li figure figcaption{
+        position: relative; padding-bottom: 20px; box-sizing: border-box;
+    }
+    section[class^=list] > ul li figure figcaption a{
+        text-decoration: none; display: block;
+    }
+    section[class^=list] > ul li figure figcaption a > *{
+        display: block; font-weight: 300;
+    }
+    section[class^=list] > ul li figure figcaption a span:first-of-type{
+        font-size: 20px; color: #212121; margin-bottom: 20px;
+    }
+    section[class^=list] > ul li figure figcaption a span:last-of-type{
+        font-size: 24px; color: #121212; margin-bottom: 15px
+    }
+    section[class^=list] > ul li figure figcaption a small{
+        position: absolute; bottom: 0; font-size: 16px; color: #666;
+    }
+    
+    /*list fin */
+    
+    section[class$=Detail]{
+        max-width: 1350px; margin: 60px auto 100px; display: block;
+    }
+    section[class$=Detail] > div[class$=purchase]{
+        margin-bottom: 150px;
+    }
+    section[class$=Detail] > div[class$=purchase]::after{
+        content: ''; clear: both; display: block;
+    }
+    section[class$=Detail] > div[class$=purchase] > img{
+        width: 54%; float: left; max-width: 720px;
+    }
+    section[class$=Detail] > div[class$=purchase] div{
+        width: 40%; float: left; margin-left: 6%;
+    }
+    section[class$=Detail] > div[class$=purchase] div > span{
+        font-size: 16px; font-weight: 300; color: #787878; position: relative;
+        display: block; width: 100%;
+    }
+    section[class$=Detail] > div[class$=purchase] div span small{
+        font-size: 12px; font-weight: 300; color: #212121;
+        position: absolute; right: 0;
+    }
+    section[class$=Detail] > div[class$=purchase] small{
+        font-size: 12px; font-weight: 300; color: #212121;
+        margin-left: 90%;
+    }
+    section[class$=Detail] > div[class$=purchase] div fieldset{
+        margin-bottom: 50px;
+    }
+    section[class$=Detail] > div[class$=purchase] div fieldset ul li{
+        list-style: none; border-bottom: 1px solid #dedede; box-sizing: border-box; 
+        margin-top: 50px; padding-bottom: 30px; display: block; line-height: 30px;
+    }
+    section[class$=Detail] > div[class$=purchase] div fieldset ul li::after{
+        content: ''; clear: both; display: block;
+    }
+    section[class$=Detail] > div[class$=purchase] div fieldset ul li :first-child{
+        float: left;  width: 30%; 
+        font-size: 16px; font-weight: 300; color: #121212; 
+    }
+    section[class$=Detail] > div[class$=purchase] div fieldset ul li:not(:nth-of-type(4)) :last-child{
+         float: left; text-align: right; width: 69%; 
+    }
+    section[class$=Detail] > div[class$=purchase] div fieldset ul li:nth-of-type(1) input,
+    section[class$=Detail] > div[class$=purchase] div fieldset ul li:nth-of-type(2) input,
+    section[class$=Detail] > div[class$=purchase] div fieldset ul li:nth-of-type(4) input{
+        border: none;
+    }
+    section[class$=Detail] > div[class$=purchase] div fieldset ul li:nth-of-type(1) :last-child{
+        font-size: 16px; font-weight: 300; color: #121212;
+    }
+    section[class$=Detail] > div[class$=purchase] div fieldset ul li:nth-of-type(2) :last-child,
+    section[class$=Detail] > div[class$=purchase] div fieldset ul li:nth-of-type(4) :last-child{
+        font-size: 16px; font-weight: 300; color: #121212;
+    }
+    section[class$=Detail] > div[class$=purchase] div fieldset ul li:nth-of-type(3) :last-child{
+        font-size: 16px; border: 1px solid #dedede; padding: 10px;  
+    }
+    section[class$=Detail] > div[class$=purchase] div fieldset ul li:nth-of-type(4) :nth-child(2),
+    section[class$=Detail] > div[class$=purchase] div fieldset ul li:nth-of-type(4) :last-child{
+        float: left; text-align: right;  font-weight: 300; color: #121212;
+    }
+    section[class$=Detail] > div[class$=purchase] div fieldset ul li:nth-of-type(4) :nth-child(2){
+        font-size: 24px; width: 65%;
+    }
+    section[class$=Detail] > div[class$=purchase] div fieldset ul li:nth-of-type(4) :last-child{
+        font-size: 16px; width: 4%;
+    }
+    section[class$=Detail] > div[class$=purchase] div input[type='submit']{
+        border: 1px solid black; line-height: 50px; width: 30%; display: inline-block; box-sizing: border-box; 
+        background-color: black; color: #dedede; font-size: 16px; font-weight: 300; margin-right: 40%;
+    }
+    section[class$=Detail] > div[class$=purchase] div a{
+        text-decoration: none; font-size: 16px; font-weight: 300; box-sizing: border-box;
+        border: 1px solid #dedede; background-color: white; color: #121212; 
+        display: block; width: 30%; line-height: 50px; text-align: center; float: right;
+    }
+    
+    /* purchase class fin */
+    
+    section[class^=basetech] > figure[class$=explanation] img,
+    section[class^=bottom] > figure[class$=explanation] img,
+    section[class^=long_top] > figure[class$=explanation] img,
+    section[class^=outer] > figure[class$=explanation] img,
+    section[class^=performance] > figure[class$=explanation] img,
+    section[class^=short_top] > figure[class$=explanation] img,
+    section[class^=swim] > figure[class$=explanation] img,
+    section[class^=xwide] > figure[class$=explanation] img{
+        max-width: 1200px;
+    }
+    section[class^=basicwide] > figure[class$=explanation] img,
+    section[class^=coolmash] > figure[class$=explanation] img{
+        max-width: 818px; 
+    }
+    section[class$=Detail] > figure[class$=explanation] img{
+        width: 100%; margin: 0 auto 150px; display: block;
+    }
+    section[class$=Detail] > figure[class$=explanation] figcaption{
+        padding-left: 5%; padding-right: 5%; box-sizing: border-box;
+    }
+    /* padding left, right. p width (x) */
+    section[class$=Detail] > figure[class$=explanation] figcaption h3{
+        font-size: 41px; font-weight: 500; color: #121212; margin-bottom: 45px;
+    }
+    section[class$=Detail] > figure[class$=explanation] figcaption p{
+        font-size: 24px; font-weight: 300; color: #121212; margin-bottom: 50px;
+        line-height: 30px;
+    }
+    
+    /* explanation class fin */
+
+    section[class$=Detail] > ul[class$=info]{
+        width: 100%; margin-bottom: 150px;
+    }
+    section[class$=Detail] > ul[class$=info]::after{
+        content: ''; clear: both; display: block;
+    }
+    section[class$=Detail] > ul[class$=info] > li{
+        list-style: none; float: left; width: 45%; margin-bottom: 4%; padding-bottom: 50px;
+        background-repeat: no-repeat; background-size: 157px 117px; background-position: center;
+        background-color: #f9f9f9;
+    }
+    section[class$=Detail] > ul[class$=info] > li:nth-child(even){
+        margin-left: 8%;
+    }
+    section[class$=Detail] > ul[class$=info] > li:nth-of-type(1){
+        background-image: url('../images/distinct_1.jpg');
+    } 
+    section[class$=Detail] > ul[class$=info] > li:nth-of-type(2){
+        background-image: url('../images/distinct_2.jpg');
+    }
+    section[class$=Detail] > ul[class$=info] > li:nth-of-type(3){
+        background-image: url('../images/distinct_3.jpg');
+    }
+    section[class$=Detail] > ul[class$=info] > li:nth-of-type(4){
+        background-image: url('../images/distinct_4.jpg');
+    }
+    section[class$=Detail] > ul[class^=detail_fabric] > li h3,
+    section[class$=Detail] > ul[class^=detail_fabric] > li p{
+        text-align: center;
+    }
+    section[class$=Detail] > ul[class$=info] > li h3{
+        font-size: 24px; font-weight: 500; color: #121212; padding-top: 350px; margin-bottom: 20px; 
+        text-align: center;
+    }
+    section[class$=Detail] > ul[class$=info] > li p{
+        font-size: 24px; font-weight: 300; color: #121212; line-height: 30px; text-align: center;
+    }
+    section[class$=Detail] > ul[class$=info_2]{
+        margin-bottom: 150px;
+    }
+    section[class$=Detail] > ul[class$=info_2]::after{
+        content: ''; clear: both; display: block;
+    }
+    section[class$=Detail] > ul[class$=info_2] > li{
+        list-style: none; float: left; width: 30%; margin-bottom: 2%;  
+        background-repeat: no-repeat; background-position: center top;
+        background-size: 113px 104px; padding-bottom: 30px;
+    }
+    section[class$=Detail] > ul[class$=info_2] > li:nth-of-type(2),
+    section[class$=Detail] > ul[class$=info_2] > li:nth-of-type(3),
+    section[class$=Detail] > ul[class$=info_2] > li:nth-of-type(5){
+        margin-left: 4%;
+    }
+    section[class$=Detail] > ul[class$=info_2] > li:nth-of-type(4){
+        margin-left: 16%;
+    }
+    section[class$=Detail] > ul[class$=info_2] > li:nth-of-type(1){
+        background-image: url('../images/distinct_5.png');
+    }
+    section[class$=Detail] > ul[class$=info_2] > li:nth-of-type(2){
+        background-image: url('../images/distinct_6.png');
+    }
+    section[class$=Detail] > ul[class$=info_2] > li:nth-of-type(3){
+        background-image: url('../images/distinct_7.png');
+    }
+    section[class$=Detail] > ul[class$=info_2] > li:nth-of-type(4){
+        background-image: url('../images/distinct_8.png');
+    }
+    section[class$=Detail] > ul[class$=info_2] > li:nth-of-type(5){
+        background-image: url('../images/distinct_9.png');
+    }
+    section[class$=Detail] > ul[class$=info_2] > li h3{
+        font-size: 24px; font-weight: 500; color: #121212; padding-top: 130px; margin-bottom: 20px;
+    }
+    section[class$=Detail] > ul[class$=info_2] > li p{
+        font-size: 16px; font-weight: 300; color: #121212; line-height: 20px; 
+    }
+    section[class$=Detail] > ul[class$=info_3]{
+        width: 95%; margin-bottom: 150px;
+    }
+    section[class$=Detail] > ul[class$=info_3]::after{
+        content: ''; clear: both; display: block;
+    }
+    section[class$=Detail] > ul[class$=info_3] > li{
+        list-style: none; float: left; width: 30%; margin-bottom: 30px;
+        background-repeat: no-repeat; background-size: 124px 108px; background-position: center top;
+    }
+    section[class$=Detail] > ul[class$=info_3] > li:nth-of-type(2),
+    section[class$=Detail] > ul[class$=info_3] > li:nth-of-type(3),
+    section[class$=Detail] > ul[class$=info_3] > li:nth-of-type(5),
+    section[class$=Detail] > ul[class$=info_3] > li:nth-of-type(6){
+        margin-left: 4%;
+    }
+    section[class$=Detail] > ul[class$=info_3] > li:nth-of-type(1){
+        background-image: url('../images/distinct_10.jpg');
+    }
+    section[class$=Detail] > ul[class$=info_3] > li:nth-of-type(2){
+        background-image: url('../images/distinct_11.jpg');
+    }
+    section[class$=Detail] > ul[class$=info_3] > li:nth-of-type(3){
+        background-image: url('../images/distinct_12.jpg');
+    }
+    section[class$=Detail] > ul[class$=info_3] > li:nth-of-type(4){
+        background-image: url('../images/distinct_13.jpg');
+    }
+    section[class$=Detail] > ul[class$=info_3] > li:nth-of-type(5){
+        background-image: url('../images/distinct_14.jpg');
+    }
+    section[class$=Detail] > ul[class$=info_3] > li:nth-of-type(6){
+        background-image: url('../images/distinct_15.jpg');
+    }
+    section[class$=Detail] > ul[class$=info_3] > li h3{
+        font-size: 24px; font-weight: 500; color: #121212; margin-bottom: 20px; padding-top: 120px;
+    }
+    section[class$=Detail] > ul[class$=info_3] > li p{
+        font-size: 16px; font-weight: 300; color: #121212; line-height: 20px;
+    }
+    
+    /* fabric_info class fin */
+
+    section[class$=Detail] > div[class$=designpoint] figure{
+        margin-bottom: 150px;
+    }
+    section[class^=long_top_doublelayer] > div[class$=designpoint] figure img,
+    section[class^=long_top_emblem] > div[class$=designpoint] figure img,
+    section[class^=long_top_liver] > div[class$=designpoint] figure img,
+    section[class^=long_top_trakking] > div[class$=designpoint] figure img,
+    section[class^=outer_hood] > div[class$=designpoint] figure img,
+    section[class^=outer_track] > div[class$=designpoint] figure img{
+        max-width: 606px;
+    }
+    section[class^=swim] > div[class$=designpoint] figure img{
+        max-width: 723px;
+    }
+    section[class^=basicwide] > div[class$=designpoint] figure img,
+    section[class^=coolmash] > div[class$=designpoint] figure img,
+    section[class^=short_top_trainer] > div[class$=designpoint] figure img,
+    section[class^=short_top_protective] > div[class$=designpoint] figure img{
+        max-width: 884px;
+    }
+    section[class^=bottom_3inch] > div[class$=designpoint] figure img,
+    section[class^=bottom_multiple] > div[class$=designpoint] figure img,
+    section[class^=bottom_power] > div[class$=designpoint] figure img,
+    section[class^=long_top_dayoff] > div[class$=designpoint] figure img,
+    section[class^=outer_wind] > div[class$=designpoint] figure img,
+    section[class^=performance] > div[class$=designpoint] figure img,
+    section[class^=short_top_tripplex] > div[class$=designpoint] figure img,
+    section[class^=short_top_player] > div[class$=designpoint] figure img,
+    section[class^=xwide] > div[class$=designpoint] figure img{
+        max-width: 908px;
+    }
+    section[class^=basetech] > div[class$=designpoint] figure img
+    section[class^=bottom_compression] > div[class$=designpoint] figure img{
+        max-width: 1094px;
+    }
+    section[class$=Detail] > div[class$=designpoint] figure img{
+        width: 100%; margin: 0 auto; display: block;
+    }
+    section[class$=Detail] > div[class$=designpoint] figure figcaption{
+        margin-bottom: 30px;
+    }
+    section[class$=Detail] > div[class$=designpoint] figure figcaption h3{
+        font-size: 41px; font-weight: 300; color: #787878; margin-bottom: 30px;
+    }
+    section[class$=Detail] > div[class$=designpoint] figure figcaption p{
+        font-size: 30px; line-height: 40px;
+    }
+    section[class$=Detail] > div[class$=designpoint] figure figcaption p:nth-of-type(1){
+        font-weight: 500; color: #121212; margin-bottom: 30px;
+    }
+    section[class$=Detail] > div[class$=designpoint] figure figcaption p:nth-of-type(2){
+        font-weight: 300; color: #212121;
+    }
+    
+    /* designpoint class fin */
+    
+    section[class$=Detail] > div[class$=background] img{
+        width: 100%; margin: 0 auto 150px; max-width: 1200px;
+        display: block;
+    }
+    
+    /* background class fin */
+    
+    section[class$=Detail] > div[class$=back] img{
+        width: 100%; margin: 0 auto 150px; display: block; max-width: 800px; 
+    }
+    
+    /* front_and_back class fin */
+    
+    section[class$=Detail] > div[class$=laundry]{
+        margin-bottom: 150px;
+    }
+    section[class$=Detail] > div[class$=laundry] > h3{
+        text-align: center; font-size: 41px; font-weight: 500; color: #121212;
+        margin-bottom: 60px;
+    }
+    section[class$=Detail] > div[class$=laundry] > h3 small{
+        text-align: center; font-size: 24px; font-weight: 300; color: #121212;
+        display: block; margin-top: 30px; 
+    }
+    section[class$=Detail] > div[class$=laundry] ul::after{
+        content: ''; clear: both; display: block;
+    }
+    section[class$=Detail] > div[class$=laundry] ul li{
+        list-style: none; float: left; width: 46%; padding-top: 25px; margin-bottom: 8%;
+        background-size: 71px 71px; background-repeat: no-repeat; background-position: left center;
+    }
+    section[class$=Detail] > div[class$=laundry] ul li:nth-child(even){
+        margin-left: 8%;
+    }
+    section[class$=Detail] > div[class$=laundry] ul li:nth-of-type(1){
+        background-image: url('../images/wash_warning_1.gif');
+    }
+    section[class$=Detail] > div[class$=laundry] ul li:nth-of-type(2){
+        background-image: url('../images/wash_warning_2.png');
+    }
+    section[class$=Detail] > div[class$=laundry] ul li:nth-of-type(3){
+        background-image: url('../images/wash_warning_3.gif');
+    }
+    section[class$=Detail] > div[class$=laundry] ul li:nth-of-type(4){
+        background-image: url('../images/wash_warning_4.gif');
+    }
+    section[class$=Detail] > div[class$=laundry] ul li:nth-of-type(5){
+        background-image: url('../images/wash_warning_5.gif');
+    }
+    section[class$=Detail] > div[class$=laundry] ul li:nth-of-type(6){
+        background-image: url('../images/wash_warning_6.gif');
+    }
+    section[class$=Detail] > div[class$=laundry] ul li:nth-of-type(7){
+        background-image: url('../images/wash_warning_7.gif');
+    }
+    section[class$=Detail] > div[class$=laundry] ul li:nth-of-type(8){
+        background-image: url('../images/wash_warning_8.gif');
+    }
+    section[class$=Detail] > div[class$=laundry] ul li h3{
+        font-size: 24px; font-weight: 500; color: #121212; padding-left: 22%; margin-bottom: 20px;
+    }
+    section[class$=Detail] > div[class$=laundry] ul li p{
+        font-size: 16px; font-weight: 300; color: #121212; padding-left: 22%; line-height: 20px;
+    }
+    section[class$=Detail] > div[class$=laundry] > p{
+        font-size: 16px; font-weight: 300; color: #121212; text-align: center;
+    }
+    
+    /* laundry class fin */
+    
+    section[class$=Detail] > div[class$=size]{
+        margin: 0 auto 150px; display: block;
+    }
+    section[class$=Detail] > div[class$=size] > h3{
+        font-size: 41px; font-weight: 300; color: #787878; margin-bottom: 60px;
+    }
+    section[class$=Detail] > div[class$=size] img{
+        width: 100%; margin: 0 auto 30px; max-width: 450px; display: block;
+    }
+    section[class$=Detail] > div[class$=size] table{
+        border: 1px solid #e8e8e8; margin: 0 auto; width: 50%; display: table;
+    }
+    section[class$=Detail] > div[class$=size] table caption{
+        display: none;
+    }
+    section[class$=Detail] > div[class$=size] table thead{
+        font-size: 16px; font-weight: 500; color: #121212;
+    }
+    section[class$=Detail] > div[class$=size] table tbody{
+        font-size: 14px; font-weight: 300; color: #121212;
+    }
+    section[class$=Detail] > div[class$=size] table thead th,
+    section[class$=Detail] > div[class$=size] table tbody th,
+    section[class$=Detail] > div[class$=size] table tbody td{
+        border: 1px solid #e8e8e8; padding: 20px; text-align: center; 
+    }
+    section[class$=Detail] > div[class$=size] table thead th,
+    section[class$=Detail] > div[class$=size] table tbody th{
+        background-color: #f7f7f7;
+    }
+    
+    /* clothes size class fin */
+    
+    section[class$=Detail] > div[class^=delivery]{
+        margin-bottom: 30px;
+    }
+    section[class$=Detail] > div[class^=delivery] h3{
+        font-size: 30px; font-weight: 500; color: #121212; margin-bottom: 30px;
+    }
+    section[class$=Detail] > div[class^=delivery] table{
+        border: 1px solid #e8e8e8; text-align: center; display: table; width: 100%;
+    }
+    section[class$=Detail] > div[class^=delivery] table caption{
+        font-size: 24px; font-weight: 500; color: #121212; text-align: left; margin-bottom: 30px;
+    }
+    section[class$=Detail] > div[class^=delivery] table tbody th,
+    section[class$=Detail] > div[class^=delivery] table tbody td{
+        border: 1px solid #e8e8e8;
+    }
+    section[class$=Detail] > div[class^=delivery] table tbody th{
+        padding: 30px 50px; text-align: center; background-color: #f7f7f7;
+        vertical-align: middle; font-size: 16px; font-weight: 500; color: #121212;
+    }
+    section[class$=Detail] > div[class^=delivery] table tbody td{
+        text-align: left; padding: 2%; font-size: 14px; font-weight: 300; color: #121212; line-height: 30px;
+    }
+    section[class$=Detail] > div[class^=delivery] table tbody tr:nth-of-type(3) td,
+    section[class$=Detail] > div[class^=delivery] table tbody tr:last-of-type td{
+        padding-bottom: 30px;
+    }
+    
+    /* delivery class fin */
+    
+    section[class$=Detail] > div[class^=exchange]{
+        margin-bottom: 20px;
+    }
+    section[class$=Detail] > div[class^=exchange] p{
+        font-size: 24px; font-weight: 500; color: #121212; margin-bottom: 30px;
+    }
+    section[class$=Detail] > div[class^=exchange] table{
+        border: 1px solid #e8e8e8; text-align: center; display: table; width: 100%;
+    }
+    section[class$=Detail] > div[class^=exchange] table caption{
+        display: none;
+    }
+    section[class$=Detail] > div[class^=exchange] table tbody th,
+    section[class$=Detail] > div[class^=exchange] table tbody td{
+        border: 1px solid #e8e8e8;
+    }
+    section[class$=Detail] > div[class^=exchange] table tbody th{
+        text-align: center; background-color: #f7f7f7; vertical-align: middle;
+        padding: 30px; font-size: 16px; font-weight: 500; color: #121212; line-height: 30px;
+    }
+    section[class$=Detail] > div[class^=exchange] table tbody td{
+        text-align: left; padding: 2%; font-size: 14px; font-weight: 300; color: #121212;
+        line-height: 30px;
+    }
+    
+    /* exchange class fin */
+
+    section[class$=Detail] > a{
+        display: block; text-decoration: none; border: 1px solid black; color: #787878; 
+        padding: 10px; font-size: 14px; color: #121212; width: 100px; float: right; text-align: center;
+    }
+
+    /* Detail page fin */
+
+    section[class=etcpage_login]{
+        max-width: 460px; margin: 150px auto 300px; display: block;
+    }
+    section[class=etcpage_login] h2{
+        font-size: 30px; font-weight: 500; color: #121212; margin-bottom: 50px;
+    }
+    section[class=etcpage_login] fieldset legend{
+        font-size: 24px; font-weight: 300; color: #121212; margin-bottom: 20px;
+    }
+    section[class=etcpage_login] input[type='text'],
+    section[class=etcpage_login] input[type='password']{
+        display: block; border: 1px solid #bababa; font-size: 16px; font-weight: 300; color: #bababa;
+        padding: 20px 0 20px 2%; width: 100%;
+    }
+    section[class=etcpage_login] input[type='password']{
+        border-top: none; margin-bottom: 20px;
+    }
+    section[class=etcpage_login] fieldset label{
+        font-size: 12px; font-weight: 300; color: #121212; vertical-align: middle;
+    } 
+    section[class=etcpage_login] input[type='submit']{
+        margin-top: 20px; border-radius: 10px; background-color: black; font-size: 16px; font-weight: 300; color: #ededed;
+        padding-top: 15px; padding-bottom: 15px; margin-bottom: 30px; box-sizing: border-box; width: 100%; border: none; text-align: center;
+    }
+    section[class=etcpage_login] div{
+        position: relative; width: 100%
+    }
+    section[class=etcpage_login] div a{
+        text-decoration: none; font-size: 14px; font-weight: 300; color: #121212;
+        display: inline-block;       
+    }
+    section[class=etcpage_login] div a:last-of-type{
+        position: absolute; right: 0;
+    }
+
+    /* etcpage login fin */
+
+    section[class=etcpage_join]{
+        max-width: 1000px; margin: 80px auto; display: block;
+    }
+    section[class=etcpage_join] h2{
+        font-size: 30px; font-weight: 500; color: #121212; margin-bottom: 50px; text-align: center;
+    }
+    section[class=etcpage_join] fieldset{
+        border: 1px solid #ccc; margin-bottom: 50px;
+    }
+    section[class=etcpage_join] fieldset legend{
+        display: none;
+    }
+    section[class=etcpage_join] fieldset ul{
+        padding: 60px 10%; list-style: none;
+    }
+    section[class=etcpage_join] fieldset ul li:not(:last-of-type){
+        margin-bottom: 50px; display: block;
+    }
+    section[class=etcpage_join] fieldset ul li label{
+        font-size: 14px; font-weight: 300; color: #121212; 
+    }
+    section[class=etcpage_join] fieldset ul li input{
+        display: block; margin-top: 20px; border: none; border-bottom: 1px solid #ccc;
+        font-size: 14px; font-weight: 300; color: #ccc; line-height: 30px; width: 100%;
+    }
+    section[class=etcpage_join] fieldset div{
+        padding-left: 11%; margin-bottom: 60px;
+    }
+    section[class=etcpage_join] fieldset div input[type='radio']{
+        border: 1px solid #ccc;
+    }
+    section[class=etcpage_join] fieldset div input[type='radio']:not(:first-of-type){
+        margin-left: 50px;
+    }
+    section[class=etcpage_join] fieldset div label{
+        vertical-align: middle; font-size: 14px; font-weight: 300; color: #121212;
+    }
+    section[class=etcpage_join] input[type='submit']{
+        font-size: 16px; font-weight: 300; color: #ededed; background-color: black; border: none;
+        border-radius: 5px; padding: 2%; display: block; margin: 0 auto; width: 100px;
+    }
+
+    /* etcpage join fin */
+    
+    section[class$=service]{
+        max-width: 1200px; margin: 80px auto; display: block;
+    }
+    section[class$=service] h2{
+        font-size: 41px; font-weight: 300; color: #121212; margin-bottom: 60px;
+    }
+    section[class=etcpage_terms_of_service] p{
+        font-size: 14px; font-weight: 300; color: #333; margin-bottom: 60px;
+    }
+    section[class$=service] ul{
+        list-style: none;
+    }
+    section[class$=service] ul li:not(:last-of-type){
+        margin-bottom: 120px; border-bottom: 1px solid #dedede; 
+    }
+    section[class$=service] ul li h3{
+        font-size: 30px; font-weight: 300; color: #121212; margin-bottom: 30px;
+    }
+    section[class$=service] ul li p{
+        font-size: 14px; font-weight: 300; color: #333; margin-bottom: 30px; line-height: 20px;
+    }
+
+    /* etcpage service fin */
+
+    section[class=etcpage_notice_detail]{
+        max-width: 1350px; margin: 120px auto 80px; display: block;
+    }
+    section[class=etcpage_notice_detail] h2{
+        font-size: 30px; font-weight: 500; color: #121212; margin-bottom: 60px;
+    }
+    section[class=etcpage_notice_detail] h2 small{
+        font-size: 16px; font-weight: 300; color: #454545; margin-top: 20px; display: block;        
+    }
+    section[class=etcpage_notice_detail] > div{
+        margin-bottom: 50px;
+    }
+    section[class=etcpage_notice_detail] > div p{
+        font-size: 16px; font-weight: 300; 
+    }
+    section[class=etcpage_notice_detail] > div p:first-of-type{
+        color: #454545; margin-bottom: 50px;
+    }
+    section[class=etcpage_notice_detail] > div p:not(:first-of-type){
+        color: #121212; margin-bottom: 30px;
+    }
+    section[class=etcpage_notice_detail] ul{
+        list-style: none; margin-bottom: 20px; border-bottom: 1px solid #bababa;
+    }
+    section[class=etcpage_notice_detail] li:not(:last-of-type){
+        margin-bottom: 50px;
+    }
+    section[class=etcpage_notice_detail] ul li mark{
+        font-size: 14px; font-weight: 300; color: #ededed; background-color: black; margin-bottom: 30px;
+        padding: 15px 1%; text-align: center; box-sizing: border-box; display: inline-block; 
+    }
+    section[class=etcpage_notice_detail] ul li p{
+        font-size: 14px; font-weight: 300; line-height: 20px;
+    }
+    section[class=etcpage_notice_detail] ul li:first-of-type p:first-of-type,
+    section[class=etcpage_notice_detail] ul li:nth-of-type(2) p:first-of-type{
+        margin-bottom: 30px;
+    }
+    section[class=etcpage_notice_detail] ul li:first-of-type p:first-of-type,
+    section[class=etcpage_notice_detail] ul li:nth-of-type(2) p:first-of-type,
+    section[class=etcpage_notice_detail] ul li:first-of-type p:nth-of-type(2),
+    section[class=etcpage_notice_detail] ul li:nth-of-type(2) p:nth-of-type(2),
+    section[class=etcpage_notice_detail] ul li:last-of-type p{
+        color: #121212;
+    }
+    section[class=etcpage_notice_detail] ul li:first-of-type p:last-of-type,
+    section[class=etcpage_notice_detail] ul li:nth-of-type(2) p:last-of-type{
+        color: #bababa;
+    }
+    section[class=etcpage_notice_detail] ul li address{
+        border: 1px solid #bababa; font-size: 14px; font-weight: 300; color: #121212;
+        display: block; width: 480px; text-align: center; padding: 10px 0; box-sizing: border-box;
+        margin-bottom: 30px;
+    }
+    section[class=etcpage_notice_detail] div:nth-of-type(2)::after{
+        content: ''; clear: both; display: block; 
+    }
+    section[class=etcpage_notice_detail] div:nth-of-type(2) a{
+        background-color: black; font-size: 16px; font-weight: 500; color: #ededed;
+        text-decoration: none; text-align: center; padding: 10px 0; width: 100px; display: block;
+        float: right; box-sizing: border-box;
+    }
+
+    /* etcpage notice_detail fin */
+
+    section[class=etcpage_notice]{
+        max-width: 1200px; margin: 170px auto 380px; display: block;
+    }
+    section[class=etcpage_notice] h2{
+        background-color: black; font-size: 24px; font-weight: 300; color: #ededed; text-align: center;
+        padding: 15px 0; box-sizing: border-box; margin-bottom: 25px;
+    }
+    section[class=etcpage_notice] ul{
+        list-style: none; 
+    }
+    section[class=etcpage_notice] form fieldset{
+        margin-bottom: 30px; text-align: right; 
+    }
+    [class=etcpage_notice] ul li:first-of-type::after{
+        content: ''; clear: both; display: block;
+    }
+    section[class=etcpage_notice] form fieldset label{
+        font-size: 14px; font-weight: 300; color: #454545; vertical-align: middle;
+        display: inline-block; line-height: 30px;
+    }
+    section[class=etcpage_notice] form fieldset input[type='search'],
+    section[class=etcpage_notice] form fieldset input[type='search']::placeholder{
+        vertical-align: middle; font-size: 14px; padding: 4px 5px 2px;
+        margin-left: 2%;
+    }
+    [class=etcpage_notice] ul li:first-of-type{
+        border-top: 1px solid #bababa; line-height: 50px;
+    }
+    [class=etcpage_notice] ul li:first-of-type,
+    section[class=etcpage_notice] ul li:last-of-type{
+        float: left; display: block; width: 100%; border-bottom: 1px solid #bababa;
+        line-height: 50px;
+    }
+    [class=etcpage_notice] ul li:first-of-type span,
+    section[class=etcpage_notice] ul li:last-of-type span{
+        font-size: 16px; color: #121212; text-align: center;
+    }
+    section[class=etcpage_notice] ul li:last-of-type span:not(:nth-of-type(2)){
+        font-weight: 300;
+    }
+    section[class=etcpage_notice] ul li:last-of-type span:nth-of-type(2){
+        font-weight: 500;
+    }
+    [class=etcpage_notice] ul li:first-of-type span:not(:nth-of-type(2)){
+        width: 14%; display: inline-block;
+    } 
+    [class=etcpage_notice] ul li:first-of-type span:nth-of-type(2){
+        width: 42%; display: inline-block;
+    }
+    section[class=etcpage_notice] ul li:last-of-type span:not(:nth-of-type(2)){
+        width: 14%; display: inline-block;
+    }
+    section[class=etcpage_notice] ul li:last-of-type span:nth-of-type(2){
+        width: 42%; display: inline-block;
+    }
+
+    /* etcpage notice fin */
+
+    section[class=etcpage_shopping]{
+        max-width: 1000px; margin: 80px auto 300px; display: block;
+        padding: 0 3% 0 2%;
+    }
+    section[class=etcpage_shopping] h2{
+        display: none;
+    }
+    section[class=etcpage_shopping] fieldset{
+        margin-bottom: 70px;
+    }
+    section[class=etcpage_shopping] fieldset legend{
+        font-size: 41px; font-weight: 500; color: #121212; margin-bottom: 60px;
+    }
+    section[class=etcpage_shopping] fieldset ul{
+        list-style: none; 
+    }
+    section[class=etcpage_shopping] fieldset ul li input[type='checkbox']{
+        display: none;
+    }
+    section[class=etcpage_shopping] fieldset ul li:first-of-type{
+        border-top: 1px solid #bababa; border-bottom: 1px solid #bababa; line-height: 50px;
+        width: 100%;
+    }
+    section[class=etcpage_shopping] fieldset ul li:last-of-type{
+        border-bottom: 1px solid #bababa; line-height: 50px; width: 100%;
+    }
+    section[class=etcpage_shopping] fieldset ul li span{
+        text-align: center; font-size: 16px; font-weight: 300; color: #121212;
+    }
+    section[class=etcpage_shopping] fieldset ul li:first-of-type span:not(:nth-of-type(2)){
+        width: 10%; display: inline-block;
+    }
+    section[class=etcpage_shopping] fieldset ul li:first-of-type span:nth-of-type(2){
+        width: 48%; display: inline-block;
+    }
+    section[class=etcpage_shopping] fieldset ul li:last-of-type span:not(:nth-of-type(2)){
+        width: 10%; display: inline-block;
+    }
+    section[class=etcpage_shopping] fieldset ul li:last-of-type span:nth-of-type(2){
+        width: 48%; display: inline-block;
+    }
+    section[class=etcpage_shopping] fieldset ul li:last-of-type input[type='number']{
+        width: 30%; text-align: center; line-height: 24px;
+    }
+    /* tab, mobile 반영 */
+    section[class=etcpage_shopping] fieldset ul li:last-of-type button{
+        background-color: #878787; color: #ededed; border: none; text-align: center;
+        line-height: 24px; padding: 0 10px; font-size: 12px; border-radius: 4px;
+    }
+    /* tab, mobile 반영 */
+    section[class=etcpage_shopping] input[type='submit']{
+        background-color: #333; color: #ededed; font-size: 16px; font-weight: 300; text-align: center;
+        width: 160px; display: block; margin: 0 auto; padding: 15px 0; box-sizing: border-box; border: none;
+    }
+
+    /* etcpage shopping fin */
+}
+
+
+
+
+
+
+
+
+
+
