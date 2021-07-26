@@ -1,0 +1,7 @@
+1. SELECT OPTION 클릭시
+
+2. price_field 의 value를 가져와 변수에담는다.
+
+ex> var valueData = $("#price_field").val();
+
+3. #price_total에 valueData를 넣는다.
