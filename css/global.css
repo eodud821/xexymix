@@ -145,7 +145,7 @@ section[class^=etcpage]{
     footer > div div{
         position: relative; box-sizing: border-box;
         margin-bottom: 20px;
-    }
+    }    
     footer > div div ul{
         list-style: none;
         margin-bottom: 20px;
