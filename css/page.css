@@ -1670,6 +1670,35 @@
     section[class=mainpage_banner_3]> ul li:nth-of-type(2){
         float: left; width: 50%;
     }
+    .bx-wrapper .bx-viewport ul.slider li figure img{
+        width: 100% !important;
+    }
+    .bx-wrapper .bx-viewport ul.slider li figure img{
+        opacity: 0.6;
+    }
+    .bx-wrapper .bx-viewport ul.slider li figure{
+        position: relative;
+    }
+    .bx-wrapper .bx-viewport ul.slider li figure figcaption{
+        position: absolute; bottom: 0; left: 0; width: 100%; box-sizing: border-box;
+        padding: 50px 4.5%;
+    }
+    .bx-wrapper .bx-viewport ul.slider li figure figcaption a{
+        text-decoration: none;
+    }
+    .bx-wrapper .bx-viewport ul.slider li figure figcaption a small{
+        font-size: 14px; color: #fff; font-weight: 300; display: inline-block; margin-bottom: 10px;
+        border-left: 1px solid yellow; border-right: 1px solid yellow; padding: 0 15px; line-height: 12px;
+    }
+    .bx-wrapper .bx-viewport ul.slider li figure figcaption a h3{
+        font-size: 41px; color: #fff; font-weight: 300; margin-bottom: 20px;
+    }
+    .bx-wrapper .bx-viewport ul.slider li figure figcaption a p{
+        font-size: 16px; color: #ededed; font-weight: 300;
+    }
+
+    /* ? bx slider fin */
+
     section[class^=mainpage_banner_3] > ul li:nth-of-type(1) figure img,
     section[class^=mainpage_banner_3] > ul li:nth-of-type(2) figure img{
         width: 100%;
@@ -1757,7 +1786,7 @@
         position: absolute; bottom: 0; font-size: 16px; color: #666;
     }
     
-    /*list fin */
+    /*? list fin */
     
     section[class$=Detail]{
         max-width: 1350px; margin: 60px auto 100px; display: block;
@@ -1860,7 +1889,6 @@
     section[class$=Detail] > figure[class$=explanation] figcaption{
         padding-left: 5%; padding-right: 5%; box-sizing: border-box;
     }
-    /* padding left, right. p width (x) */
     section[class$=Detail] > figure[class$=explanation] figcaption h3{
         font-size: 41px; font-weight: 500; color: #121212; margin-bottom: 45px;
     }
