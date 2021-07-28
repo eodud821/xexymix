@@ -1724,6 +1724,19 @@
     section[class=mainpage_banner_3]> ul li:nth-of-type(2){
         float: left; width: 50%;
     }
+    .bx-wrapper{
+        box-shadow: none; border-color: transparent; background: none;
+    }
+    .bx-wrapper .bx-pager .bx-pager-item a.bx-pager-link{
+        background-color: lightpink;
+    }
+    .bx-wrapper .bx-pager .bx-pager-item a.bx-pager-link.active{
+        
+    }
+    .bx-wrapper .bx-pager{
+        position: absolute; right: 0; bottom: 90px; z-index: 1000;
+        text-align: right; padding-right: 50px;
+    }
     .bx-wrapper .bx-viewport ul.slider li figure img{
         width: 100% !important;
     }

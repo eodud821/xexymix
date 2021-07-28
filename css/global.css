@@ -375,6 +375,23 @@ section[class^=etcpage]{
 }   
 
 @media screen and (min-width: 1280px) {
+    .popup{
+        background-color: rgba(255, 255, 255, 0.8);
+        width: 30%; padding: 2%; box-sizing: border-box;
+        text-align: center;
+    }
+    .popup p{
+        margin-bottom: 30px;
+    }
+    .popup p:first-of-type{
+        font-size: 41px; margin-bottom: 30px;
+    }
+    .popup p:last-of-type{
+        font-size: 24px;
+    }
+    .popup button{
+        font-size: 20px;
+    }
     header{
         background-color: black;
     }

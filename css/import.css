@@ -3,5 +3,6 @@
 @import url('https://fonts.googleapis.com/icon?family=Material+Icons');
 
 @import url('reset.css');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.css');
 @import url('global.css');
 @import url('page.css');

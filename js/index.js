@@ -1,6 +1,11 @@
 $(document).ready(function(){
     toggle();
-    $('.slider').bxSlider();
+    $('.slider').bxSlider({
+        speed: 750,
+        infiniteLoop: true,
+        touchEnabled: false,
+        pager: true
+    });
 });
 
 
